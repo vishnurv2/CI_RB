@@ -1,0 +1,7 @@
+api:
+  username_dev: INTRAZDDL001
+  password_dev: fake
+  username_test: INTRAZDDL001
+  password_test: fake
+  username_uat: INTRAZDDL001
+  password_uat: fake

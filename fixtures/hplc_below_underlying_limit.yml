@@ -1,0 +1,36 @@
+
+auto_general_info_modal:
+  producer_index: 1
+
+property_info_modal:
+  xxresidential_location_type: 'Homeowner'
+  form_type: '3 - Special'
+  prefill_property_info: true
+  year_built: '1959'
+  date_purchased: '07/16/2016'
+  under_construction: 'No'
+  premise_use: 'Primary'
+  number_of_families: '1'
+  number_of_stories: '2'
+  roof_type: 'Composition Shingles (Asphalt)'
+  roof_updates: 'Complete'
+  updated_roof_year: '2010'
+  structure_type: 'Townhouse'
+  construction_type: 'Frame w/Siding'
+  number_of_family_units: '1'
+  distance_from_water: 'Less than 1,000 Feet'
+  protection_class: '03'
+  primary_heat: 'Electric'
+  secondary_heat: 'Electric'
+
+auto_policy_level_coverages_modal:
+  coverage_a: '$5,000'
+  coverage_e_personal: '$100,000'
+  coverage_f_medical: '$500'
+  xxwind_hail_deductible: '$1,500'
+
+
+  
+  
+  
+  

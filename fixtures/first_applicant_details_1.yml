@@ -1,0 +1,19 @@
+---
+<%= include_yml("valid_creds.yml") %>
+first_applicant:
+  agency_contact: MATTHEW R HUPE
+  first_name: ~first_name
+  middle_name: ~first_name
+  last_name: ~last_name
+  is_contact: 'Yes'
+  xxgender: Male
+  date_of_birth: ~full_adult_birth_date
+  xxmarital_status: Single
+  email: ~email_address
+  phone: ~phone_number
+  address_details:
+    address_line_1: ~street_address
+    city: Gary
+    state: Indiana
+    zip_code: '46401'
+    county: Lake

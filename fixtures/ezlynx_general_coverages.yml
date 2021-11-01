@@ -1,0 +1,6 @@
+general_coverges:
+  dwelling: '300000'
+  replacement_cost: '300000'
+  personal_liability: '500000'
+  medical_payments_home: '2000'
+  all_peril_deductibles: '250'

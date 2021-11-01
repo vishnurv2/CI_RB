@@ -1,0 +1,10 @@
+.idea/
+logs/
+reports/
+downloads/
+screenshots/
+*.json
+debug.log
+cuke_sniffer_result.html
+output/
+drivers/

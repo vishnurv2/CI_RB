@@ -1,0 +1,11 @@
+---
+<%= include_yml("api_add_account_account.yml") %>
+<%= include_yml("api_add_account_basic_policy.yml") %>
+<%= include_yml("api_add_account_vehicle.yml") %>
+<%= include_yml("api_add_account_driver.yml") %>
+auto_prefill_modal:
+  vehicle_selections:
+    - false
+    - false
+  driver_selections:
+    - false

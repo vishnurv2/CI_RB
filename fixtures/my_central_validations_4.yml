@@ -1,0 +1,17 @@
+contact_agent_details:
+  agency_service_name: 'HUPE INSURANCE SERVICES'
+  telephone_number: '260-486-7488'
+  mail: 'mhupe@hupe-insurance.com'
+  agency_service_link: 'www.hupe-insurance.com'
+view_my_policy_details:
+  policy_history_date: '02/17/2021'
+  policy_history_type: 'NEW POLICY'
+  policy_history_amended: '02/17/2021'
+  policy_status: 'effective 02/17/2021 to 02/17/2022'
+billing_and_payments_details:
+  card_name: 'Scott M Waynelabwmhidsl'
+  policy: 'Home 8132562'
+  term: 'Pending'
+  balance: '$5.47'
+  current_due: '$0.00'
+  current_amount_due: '$0.00'

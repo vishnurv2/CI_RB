@@ -1,0 +1,17 @@
+contact_agent_details:
+  agency_service_name: 'HUPE INSURANCE SERVICES'
+  telephone_number: '260-486-7488'
+  mail: 'mhupe@hupe-insurance.com'
+  agency_service_link: 'www.hupe-insurance.com'
+view_my_policy_details:
+  policy_history_date: '02/17/2021'
+  policy_history_type: 'NEW POLICY'
+  policy_history_amended: '02/18/2021'
+  policy_status: 'effective 02/18/2021 to 02/18/2022'
+billing_and_payments_details:
+  card_name: 'Peter M Skywalkerytefgirpzt'
+  policy: 'Auto 8132556'
+  term: 'Pending'
+  balance: '$25.20'
+  current_due: '$0.00'
+  current_amount_due: '$0.00'

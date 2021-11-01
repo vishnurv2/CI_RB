@@ -1,0 +1,1 @@
+--markup=markdown --plugin yard-cucumber  lib/**/*.rb features/**/*.feature features/step_definitions/**/*.rb - readmes/*.md

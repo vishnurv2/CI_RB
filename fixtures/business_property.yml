@@ -1,0 +1,8 @@
+exposures_insured_with_another_carrier_modal:
+  permitted_incidental_occupancy: 1
+  home_based_business: 1
+  business_pursuits: 1
+  single_family_rental_dwelling: 1
+  multi_family_rental_dwelling: 1
+  swimming_pools_rental_dwelling: 1
+  trampoline_rental_dwelling: 1

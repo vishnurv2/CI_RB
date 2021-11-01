@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  File: Introduction
+  
+    &mdash; Documentation by YARD 0.9.18
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/cucumber.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "README";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/cucumber.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="file_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index</a> &raquo; 
+    <span class="title">File: Introduction</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="feature_list_link"
+        href="feature_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><div id='filecontents'><h1>Central Insurance PAT Cucumber Framework</h1>
+
+<p>Note: All documents in this suite are written in Markdown. Markdown is easily readable without formatting applied, it&#39;s much more pleasant to view it with formatting applied.
+The RubyMine editor will display it properly, or you can generate the full HTML documentation by running <code>rake yard</code> in the root folder of this suite.  Once complete, you can open doc\index.html in your browser.  The READMEs will be in the <code>files</code> section of that documentation. </p>
+
+<h2>Overview</h2>
+
+<p>This project contains the <a href="https://github.com/cucumber/cucumber-ruby">Cucumber</a> test suite for the Policy Admin Transformation team with Central insurance.
+Step definitions and other support code are written in <a href="https://www.ruby-lang.org/en/">Ruby</a>, a friendly felixble language.
+If you do not already have Ruby on your machine, an installer exists in the tools folder of this repo.</p>
+
+<p>Communication with the browser is handled via the Watir gem (Libraries in Ruby are called gems) which uses a driver application for each browser brand.
+The Windows drivers for each browser are in the drivers folder of this repo and will automatically be added to your path when the suite is run.</p>
+
+<h2>First time setup</h2>
+
+<p>After installing ruby, you will need to install Bundler via the commandline with:</p>
+
+<p><code>gem install bundler</code></p>
+
+<p>If you use the included scripts for running the suite, they&#39;ll take care of pulling the libraries needed.  If you plan on running cucumber directly, you should run <code>bundle install</code> each time you pull the latest source.</p>
+
+<p>If you intend on running against your local machine, you will need to generate policies for the tests that need to work with existing policies. Run the following once to generate the required fixtures: <code>script\linear_run -p local -p kb features\generate_policy.feature</code></p>
+
+<h2>Running the tests</h2>
+
+<p>Execute <code>script\linear_run -p TEST_ENV</code> from the root folder of the test suite where TEST_ENV is either dev, test or local.
+This batch file makes sure that the <code>should_run</code> profile is set and ensures that both json and &quot;pretty&quot; results are generated.
+Any arguments given to this batch file will be passed on to Cucumber.</p>
+
+<p>Tests can be executed in parallel by executing <code>script\parallel_run</code> like the above script this ensures that the <code>should_run</code> profile is passed.
+Unlike the linear run, this script only outputs json results.  After the run completes, the multiple json result files will be merged into one json file called <code>merged_results.json</code>.</p>
+
+<p>Tests can also be executed by running cucumber directly with <code>bundle exec cucumber</code> and passing options directly.  When using this method you will need to set all command line options yourself.</p>
+
+<p>Running any of the above will run all tests found under the <code>features</code> folder that match our tag selection if any.</p>
+
+<p>Running in parallel can also be achieved by running  <code>bundle exec parallel_cucumber</code>.<br>
+Passing options works differently than with normal Cucumber a command line might look like:</p>
+
+<p><code>bundle exec parallel_cucumber -- -p should_work -p parallel -- features</code> </p>
+
+<p>Note the double dashes, before and after our cucumber options.  Also note that we must specify the features folder in this case.</p>
+
+<p>With the exception of the parallel_run batch file, you can run specific tests by passing the filename to Cucumber.<br>
+When specifying feature files on the commandline you can include the line number of a specific scenario to run by including a colan and a line number like so:
+<code>bundle exec cucumber features/foo.feature:5</code>  This tells Cucumber to only run the scenario found at line 5 of <code>foo.feature</code>.</p>
+
+<p>Multiple features can be passed on the command line.</p>
+
+<p>Cucumber will still apply tag selection to the passed files.  So if you tell it to run <code>foo.feature</code> with <code>-p should_work</code> any tests tagged <code>@wip</code> will still be excluded, even if that means no scenarios are actually run.</p>
+
+<p>Running just <code>bundle exec cucumber</code> with no options at all will result in the entire suite being run against the test server using chrome.  </p>
+
+<h2>Cucumber profiles</h2>
+
+<p>Cucumber profiles provide us a shorthand way to specify command line options to Cucumber, including setting environment variables.</p>
+
+<p>The table below lists the various profiles available.  </p>
+
+<table><thead>
+<tr>
+<th>Type</th>
+<th>Profile</th>
+<th>Notes</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><strong>Browsers</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>chrome</td>
+<td>Sets BROWSER_BRAND to chrome.  This is the default if BROWSER_BRAND is not set.</td>
+</tr>
+<tr>
+<td></td>
+<td>edge</td>
+<td>Sets BROWSER_BRAND to edge</td>
+</tr>
+<tr>
+<td></td>
+<td>firefox</td>
+<td>Sets BROWSER_BRAND to firefox</td>
+</tr>
+<tr>
+<td></td>
+<td>headless</td>
+<td>Enables headless (no visible browser) mode for chrome.</td>
+</tr>
+<tr>
+<td></td>
+<td>kb</td>
+<td>Sets KEEP_BROWSER to true.  The same browser will be used instead of creating a new one for each scenario.  (Speeds up test runs at the risk of cross contamination)</td>
+</tr>
+<tr>
+<td><strong>Environments</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>dev</td>
+<td>Uses neptune for the app server and proteus for the API server</td>
+</tr>
+<tr>
+<td></td>
+<td>test</td>
+<td>Uses pluto for the app server and styx for the API server</td>
+</tr>
+<tr>
+<td></td>
+<td>local</td>
+<td>Uses localhost for both the app server and API server.</td>
+</tr>
+<tr>
+<td><strong>Slicing</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>nowip</td>
+<td>Do not run things tagged with @wip</td>
+</tr>
+<tr>
+<td></td>
+<td>no_known_issue</td>
+<td>Do not run things tagged with @known_issue</td>
+</tr>
+<tr>
+<td></td>
+<td>known_issue</td>
+<td>Run <strong>only</strong> things tagged with @known_issue (So you can see if they&#39;re fixed)</td>
+</tr>
+<tr>
+<td></td>
+<td>should_work</td>
+<td>Combines nowip and no_known_issue.  This is set by default if you use the linear_run batch file in the scripts folder</td>
+</tr>
+<tr>
+<td><strong>Browser Size</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>desktop</td>
+<td>Sets BROWSER_RESOLUTION to 1900x900.</td>
+</tr>
+<tr>
+<td></td>
+<td>bootstraplg</td>
+<td>Sets BROWSER_RESOLUTION to 1200x900</td>
+</tr>
+<tr>
+<td></td>
+<td>bootstrapmd</td>
+<td>Sets BROWSER_RESOLUTION to 993x900</td>
+</tr>
+<tr>
+<td></td>
+<td>bootstrapsm</td>
+<td>Sets BROWSER_RESOLUTION to 769x900</td>
+</tr>
+<tr>
+<td></td>
+<td>bootstrapxs</td>
+<td>Sets BROWSER_RESOLUTION to 767x900</td>
+</tr>
+<tr>
+<td><strong>Run Type</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>parallel</td>
+<td>Run the tests in parallel, one test process per CPU in the machine. Writes out results as json files.</td>
+</tr>
+<tr>
+<td></td>
+<td>ci</td>
+<td>Run tests tagged as @ci, output both json and html results.</td>
+</tr>
+<tr>
+<td></td>
+<td>parallel_ci</td>
+<td>Combines parallel and ci profiles.</td>
+</tr>
+</tbody></table>
+
+<h2>Environment variables</h2>
+
+<p>The runtime behavior of the suite can be controlled with a number of environment variables. 
+Many are optional, the ones that are not have default values that make sense for running the suite for QA.
+Many of these variables can be set via profiles on the Cucumber command line, see the section on profiles for more details.</p>
+
+<p>Note: Any path variables should use forward slashes in place of backslashes on all platforms.  Any path that starts with ./ is relative to the project root.</p>
+
+<table><thead>
+<tr>
+<th style="text-align: center">Type</th>
+<th>Variable</th>
+<th>Values</th>
+<th>Default</th>
+<th>Notes</th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="text-align: center"><strong>paths</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>DOWNLOAD_DIR</td>
+<td>A valid path</td>
+<td>./downloads</td>
+<td>Where to place downloaded files</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>FIXTURE_ROOT</td>
+<td>A valid path</td>
+<td>./fixtures</td>
+<td>Where to find fixture files</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>REPORT_DIR</td>
+<td>A valid path</td>
+<td>./reports</td>
+<td>Where to store test results</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>SCREENSHOT_DIR</td>
+<td>A valid path</td>
+<td>./screenshots</td>
+<td>Where to store screenshots of the page when a failure occurs</td>
+</tr>
+<tr>
+<td style="text-align: center"><strong>environments</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>TEST_ENV</td>
+<td>test, dev</td>
+<td>test</td>
+<td>Which environment should the tests be run in.  Controls URLs and fixture loading</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>BASE_URL</td>
+<td>A URL</td>
+<td>From TEST_ENV</td>
+<td>The URL of the product.  If not provided a host name will be looked up based on TEST_ENV</td>
+</tr>
+<tr>
+<td style="text-align: center"><strong>browsers</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>KEEP_BROWSER</td>
+<td>true, false</td>
+<td>true</td>
+<td>Should we reuse the same browser, or create a new one for each scenario.</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>BROWSER_TYPE</td>
+<td>local, sauce, selenium_hub</td>
+<td>local</td>
+<td>Should we use a local browser or a remote browser</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>BROWSER_BRAND</td>
+<td>chrome, firefox, edge, safari</td>
+<td>chrome</td>
+<td>What type of browser to use.</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>SIZE_BROWSER</td>
+<td>true, false</td>
+<td>false</td>
+<td>Should we resize the browser?</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>HEADLESS</td>
+<td>true, false</td>
+<td>false</td>
+<td>Should the browse run in headless mode?</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>MOVE_BROSWER</td>
+<td>true, false</td>
+<td>false</td>
+<td>Should we move the browser?</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>BROWSER_RESOLUTION</td>
+<td>NxN</td>
+<td>1900x900</td>
+<td>What size should the browser be?</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>BROWSER_X</td>
+<td>a number</td>
+<td>0</td>
+<td>Where should the left side of the browser be?</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>BROWSER_Y</td>
+<td>a number</td>
+<td>0</td>
+<td>Where should the top of the browser be?</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>SAUCE_URL</td>
+<td>a url</td>
+<td></td>
+<td>The URL to use for connecting to Sauce</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>SAUCE_PLATFORM</td>
+<td>See <a href="https://saucelabs.com/platforms">https://saucelabs.com/platforms</a></td>
+<td></td>
+<td>What OS to use when running under Sauce</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>SELENIUM_HUB_HOST</td>
+<td>A valid hostname</td>
+<td></td>
+<td>The host your selenium hub resides on</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>SELENIUM_HUB_PORT</td>
+<td>A number</td>
+<td></td>
+<td>The port your selenium hub listens on</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>SELENIUM_HUB_URL</td>
+<td>A URL</td>
+<td></td>
+<td>Set the full Selenium Hub URL in one go.</td>
+</tr>
+<tr>
+<td style="text-align: center"><strong>Misc</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>CUKE_DEBUG</td>
+<td>true, false</td>
+<td>false</td>
+<td>Sets debug mode, causing the suite to open a debugger when an error occurs.</td>
+</tr>
+<tr>
+<td style="text-align: center"></td>
+<td>CUKE_STEP</td>
+<td>true, false</td>
+<td>false</td>
+<td>If true, the suite will pause after each step until you hit enter.</td>
+</tr>
+</tbody></table>
+</div></div>
+
+      <div id="footer">
+  Generated on Tue Aug 27 14:12:57 2019 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.18 (ruby-2.5.5).
+</div>
+
+    </div>
+  </body>
+</html>

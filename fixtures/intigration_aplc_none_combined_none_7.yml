@@ -1,0 +1,7 @@
+auto_policy_level_coverages_modal:
+  enhanced_coverage: decline_enhanced_auto_coverage
+  bodily_injury_liability: $100,000 / $300,000
+  property_damage_liability: $25,000
+  total_limit_property_damage_coverage: $25,000
+  uninsured_underinsured_deductible: $0
+  medical_payments: $10,000

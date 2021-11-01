@@ -1,0 +1,64 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("clue_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+<%= include_yml("aplc_autoplus_combined_none.yml") %>
+auto_vehicle_coverages_modal:
+  Collision: '$500'
+  Other Than Collision: '$500'
+  Trip Interruption: true
+auto_prefill_modal:
+  :expected_drivers:
+    - :selected: true
+      :existing_account_party: Add New
+      :full_name: PHILLIS ABBOTT
+      :date_of_birth: 7/15/1986
+      :license_number: '1054561615'
+    - :selected: true
+      :existing_account_party: Robert L Abbott
+      :full_name: Robert Abbott
+      :date_of_birth: 10/1/1939
+      :license_number: '8941889319'
+  :expected_vehicles:
+    - :selected: true
+      :year: '2003'
+      :make: BUICK
+      :model: RENDEZVOUS
+      :vin: 3G5DB03E83S540283
+    - :selected: true
+      :year: '1988'
+      :make: PONTIAC
+      :model: GRAND PRIX
+      :vin: 1G2WK14W6JF234395
+  driver_selections:
+    - true
+  vehicle_selections:
+    - false
+    - true
+auto_driver_assignment_modal:
+  drivers:
+    - - 1
+auto_vehicle_modal:
+  type_of_vehicle: 'Antique'
+  # vehicle_use: Business
+  # performance: Standard
+  agreed_value: 'Yes'
+  black_book_model: Bonneville
+  value_type: Current Retail Value
+auto_driver_modal:
+  gender: Male
+  marital_status: Single
+  relationship_to_applicant: Spouse
+  license_number: ~random_number_of_length 10
+  license_state: Indiana
+reports_page:
+  expected_policy_losses:
+    - :date: 02/23/2017
+      :report: 'IN Auto Ref #'
+      :claim_type: Glass/Closed
+      :amount_paid: "$814.00"
+vehicle_information_panel:
+  vehicle_year: '1988'
+  vehicle_make: Pontiac
+  vehicle_model: Grand Prix
+  vehicle_vin: '1g2wk14w6jf234395'

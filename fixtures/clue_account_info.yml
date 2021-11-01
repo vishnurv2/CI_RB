@@ -1,0 +1,26 @@
+add_product_modal:
+  personal_products:
+    automobile: true
+    residential_locations: false
+    umbrella: false
+    scheduled_property: false
+    watercraft: false
+    dwelling: false
+  policy_effective_date: ~today
+  state: Indiana
+new_personal_account_modal:
+  select_agency: HUPE INSURANCE SERVICES (0-4218)
+  agency_contact: MATTHEW R HUPE
+  first_name: ~first_name
+  middle_name: L
+  last_name: ~last_name
+  xxgender: Male
+  date_of_birth: ~full_adult_birth_date
+  xxmarital_status: Single
+  email: ~email_address
+  phone: 1234567890
+  address_details:
+    address_line_1: 2017 ELWOOD AVE
+    city: SOUTH BEND
+    state: Indiana
+    zip_code: 46628

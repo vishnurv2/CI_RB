@@ -1,0 +1,17 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("existing_account_14.yml") %>
+auto_driver_modal:
+  existing_party: New Party
+  first_name: ~first_name
+  middle_name: ~first_name
+  last_name: ~last_name
+#  name_prefix: ~name_prefix
+#  name_suffix: ~name_suffix
+  gender: Male
+  date_of_birth: twenty-five years ago
+  marital_status: Single
+  relationship_to_applicant: Self|Child|Other Relative
+  date_first_licensed: 4 years ago
+  license_number: ~random_number_of_length 10
+  license_state: Indiana

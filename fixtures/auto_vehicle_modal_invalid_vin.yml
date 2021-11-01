@@ -1,0 +1,9 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("existing_account_7.yml") %>
+auto_vehicle_modal:
+  vehicle_year: '2010'
+  vehicle_make: Honda
+  vehicle_model: ACCORD
+  vehicle_style: 'COUPE 2D 2.4'
+  vehicle_identification_number: '111111111'

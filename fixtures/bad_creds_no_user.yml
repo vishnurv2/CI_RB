@@ -1,0 +1,8 @@
+---
+login_page:
+  user_id_dev:
+  password_dev: password
+  user_id_test:
+  password_test: password
+  user_id_uat:
+  password_uat: password

@@ -1,0 +1,3 @@
+cancel_non_renew_modal:
+  policy_transaction_type: 'Cancel'
+  reason_dropdown: "Other"

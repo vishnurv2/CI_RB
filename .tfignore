@@ -1,0 +1,9 @@
+.idea/*
+reports/*.json
+screenshots/*.png
+logs/*
+output/*
+downloads/*
+fixtures/*.local.*
+accounts/*
+drivers/*

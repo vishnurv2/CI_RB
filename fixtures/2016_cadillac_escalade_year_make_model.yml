@@ -1,0 +1,16 @@
+auto_vehicle_modal:
+  identification_type: 'Year/Make/Model'
+  vehicle_year: '2016'
+  vehicle_make: Cadillac
+  vehicle_model: ESCALADE
+  vehicle_style: 4D SUV 4WD
+  vehicle_use: Business
+  agreed_value: 'Yes'
+  xx_cost_new: '77320.00'
+  black_book_series: Base
+  black_book_year: '2016'
+  black_book_make: Cadillac
+  black_book_model: Escalade
+  black_book_style: 4D SUV 4WD
+  value_type: original cost
+  anti_theft_device: 'No Anti-Theft Device'

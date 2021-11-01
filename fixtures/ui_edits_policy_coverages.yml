@@ -1,0 +1,5 @@
+auto_policy_level_coverages_modal:
+  coverage_a: '$20,000'
+  coverage_c: '$80,000'
+  coverage_e_personal: '$100,000'
+  coverage_f_medical: '$500'

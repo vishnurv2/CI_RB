@@ -1,0 +1,15 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("qo_existing_auto_autoplus_combined_none_2.yml") %>
+expected_panels:
+  panels:
+    - product_name: IN Auto Plus
+      product_liability_limit: $75,000
+      enhanced_coverage: Auto Plus
+    - product_name: IN Summit Auto
+      product_liability_limit: $100,000
+      enhanced_coverage: Summit
+expected_qo_vehicle_coverages:
+  Other than Collision: "$500"
+  Collision: "$500"
+  Liability: 'Applies'

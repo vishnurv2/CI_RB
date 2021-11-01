@@ -1,0 +1,12 @@
+auto_policy_level_coverages_modal:
+  coverage_a: '$5,000'
+  coverage_e_personal: '$100,000'
+  coverage_f_medical: '$500'
+  xxwind_hail_deductible: '$1,500'
+auto_policy_optional_coverages_modal:
+  home_other_structures_rented_premise: true
+  home_other_structures_rented_premise_limit: '$1,000'
+  home_other_structures_rented_premise_description: 'Property to the North'
+  home_other_structures_rented_premise_families: '1'
+
+

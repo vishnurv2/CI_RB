@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+  <style>
+      body {background-color: powderblue;}
+      table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+      }
+      th, td {
+          padding: 15px;
+      }
+      th {
+          text-align: left;
+      }
+  </style>
+</HEAD>
+<BODY>
+<h1> Comparision Results</h1>
+
+<table>
+  <tr>
+    <th>S.No</th>
+    <th>First File</th>
+    <th>Second File</th>
+    <th>Comparison Status</th>
+    <th>Full Comparison Report</th>
+    <th>Left Diff File</th>
+    <th>Right Diff File</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><a href= "<%= @sample_file_path %>"><%= @sample_file_path.split('/').last %></a></td>
+    <td><a href= "<%= @test_file_path %>"><%= @test_file_path.split('/').last %></a></td>
+    <td><%= @comparision_result['compare_status'] %></td>
+    <td><a href="<%= @output_path %>" target="_blank">Comparison Result</a></td>>
+    <td><a href="<%= @full_path_left_diff %>" target="_blank"><%= @full_path_left_diff.split('/').last %></a></td>
+    <td><a href="<%= @full_path_right_diff %>" target="_blank"><%= @full_path_right_diff.split('/').last %></a></td>
+  </tr>
+</table>
+</BODY>
+</HTML>

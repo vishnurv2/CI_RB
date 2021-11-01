@@ -1,0 +1,58 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude:
+    - 'lib/auto_click.rb'
+    - 'lib/auto_click/**/*'
+    - 'script/*'
+    - 'spec/*'
+    - 'lib/extensions/httparty_extensions.rb'
+#Metrics/MethodLength:
+#  Max: 15
+Metrics/ClassLength:
+  Max: 200
+#Metrics/CyclomaticComplexity:
+#  Max: 8
+#Metrics/PerceivedComplexity:
+#  Max: 8
+#Metrics/AbcSize:
+#  Max: 15
+Security/JSONLoad:
+  Enabled: false
+Lint/ReturnInVoidContext:
+  Enabled: false
+Style/Semicolon:
+  Enabled: false
+Metrics/LineLength:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/RegexpLiteral:
+  Enabled: false
+Lint/RescueException:
+  Enabled: false
+Style/MissingRespondToMissing:
+  Enabled: false
+Style/MethodMissingSuper:
+  Enabled: false
+Naming/PredicateName:
+  Enabled: false
+Lint/Loop:
+  Enabled: false
+Style/ClassVars:
+  Enabled: false
+Naming/AccessorMethodName:
+  Enabled: false
+Style/AccessModifierDeclarations:
+  Enabled: false
+Naming/MemoizedInstanceVariableName:
+  Enabled: false
+Style/GlobalVars:
+  Enabled: false
+Lint/UnneededCopDisableDirective:
+  Enabled: false
+Lint/Debugger:
+  Exclude:
+    - 'lib/console.rb'
+Lint/HandleExceptions:
+  Exclude:
+    - 'features/support/env.rb'

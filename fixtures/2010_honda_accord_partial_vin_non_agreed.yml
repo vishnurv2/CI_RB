@@ -1,0 +1,13 @@
+auto_vehicle_modal:
+  vehicle_use: Business
+#  vehicle_identification_number: '1NXBR32E85Z559302'
+#  xxblack_book_year: '2005'
+#  xxblack_book_make: Toyota
+#  xxblack_book_model: COROLLA
+#  #vehicle_style: 'COUPE 2D 2.4'
+  agreed_value: 'Yes'
+  black_book_series: 'ESV Platinum'
+  black_book_style: '4D SUV 4WD'
+#  purchase_date: ~today
+#  annual_miles: '100'
+  vehicle_value_types: Original Cost

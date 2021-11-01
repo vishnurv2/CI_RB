@@ -1,0 +1,65 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("clue_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+<%= include_yml("aplc_autoplus_combined_none.yml") %>
+auto_vehicle_coverages_modal:
+  Collision: '$500'
+  Other Than Collision: '$500'
+  Trip Interruption: true
+auto_prefill_modal:
+  :expected_vehicles:
+    - :selected: true
+      :full_name: 2003 BUICK RENDEZVOUS
+      :vin: VIN 3G5DB03E83S540283
+    - :selected: true
+      :full_name: 1988 PONTIAC GRAND PRIX
+      :vin: VIN 1G2WK14W6JF234395
+  :expected_drivers:
+    - :selected: true
+      :existing_account_party: Add New
+      :full_name: Drew Romanovectoxfrcdy
+      :license_number: DLN
+  driver_selections:
+    - true
+  vehicle_selections:
+    - false
+    - true
+auto_driver_assignment_modal:
+  drivers:
+    - - 1
+auto_vehicle_modal:
+  vehicle_use: Business
+  performance: Standard
+auto_driver_modal:
+  gender: Male
+  marital_status: Single
+  relationship_to_applicant: Spouse
+  license_number: '8941889319'
+  license_state: Indiana
+reports_page:
+  expected_policy_losses:
+    - :date: 08/23/2018
+      :claim_type: Glass
+      :status: Closed
+      :amount_paid: "$814.00"
+vehicle_information_panel:
+  vehicle_year: '1988'
+  vehicle_make: Pontiac
+  vehicle_model: Grand Prix
+  vehicle_vin: '1g2wk14w6jf234395'
+edit_party:
+  emails:
+    - ~email_address
+  phone_numbers:
+    - number: ~phone_number
+      type: Mobile
+  address_details:
+    address_line_1: '3715 KIRKLYNN DR'
+    city: 'NEW HAVEN'
+    state: 'Indiana'
+    zip_code: '46774'
+    county: 'Allen'
+  date_of_birth: ~full_adult_birth_date
+
+

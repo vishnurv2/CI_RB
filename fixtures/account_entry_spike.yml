@@ -1,0 +1,8 @@
+---
+<%= include_yml("valid_creds.yml") %>
+auto_general_info_modal:
+#  rating_state: Indiana (IN)
+  policy_effective_date: ~tomorrow
+  state: Indiana
+  policy_address_index: '1'
+

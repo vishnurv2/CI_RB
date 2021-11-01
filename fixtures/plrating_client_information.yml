@@ -1,0 +1,25 @@
+client_information_modal:
+  first_name: 'RICHARD'
+  middle_name: 'LOUIS'
+  last_name: 'YNKDFPWGDF'
+  dob: '4/27/1983'
+  marital_status: 'Single'
+  address_line_1: '231 ECHO LAKE CENTER DR'
+  current_city: "MOORESVILLE"
+  residence_type: 'Townhouse'
+  time_at_address: '4'
+  #dl : 9353874016
+
+ssn_number:
+  #ssn: '123-123123'
+  ssn: '1666085777'
+zip:
+  zip_code: '46158'
+cell:
+  cell_phone: "(475)222-3421"
+work:
+  work_phone: "(475)222-3421"
+home:
+  home_phone: "(475)222-3421"
+
+

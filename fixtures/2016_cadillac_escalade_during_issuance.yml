@@ -1,0 +1,7 @@
+auto_vehicle_modal:
+  vehicle_use: Business
+  agreed_value: 'No'
+  vehicle_year: '2016'
+  vehicle_make: Cadillac
+  vehicle_model: ESCALADE
+  vehicle_style: 1

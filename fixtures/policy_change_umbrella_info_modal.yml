@@ -1,0 +1,4 @@
+auto_policy_level_coverages_modal:
+  umbrella_enhanced_coverage: true
+  umbrella_uninsured_underinsured: true
+  total_limit_liability: '$5,000,000'

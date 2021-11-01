@@ -1,0 +1,5 @@
+auto_policy_level_coverages_modal:
+  coverage_a_dwelling: true
+  coverage_a_dwelling_text: '$5,000'
+  coverage_l_dwelling: true
+  coverage_l_dwelling_limit: '$100,000'

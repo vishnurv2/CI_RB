@@ -1,0 +1,19 @@
+auto_policy_level_coverages_modal:
+  coverage_a: '$5,000'
+  coverage_e_personal: '$100,000'
+  coverage_f_medical: '$500'
+  xxwind_hail_deductible: '$1,500'
+auto_policy_optional_coverages_modal:
+  home_farming_liability_off_premise: true
+  home_farming_liability_off_premise_type: 'Off-Premise'
+#  home_farming_liability_off_premise_emp_40_days_less: '1'
+#  home_farming_liability_off_premise_emp_40_days_to_180: '3'
+#  home_farming_liability_off_premise_emp_180_more: '10'
+#  home_farming_liability_off_premise_acres: '6'
+  home_farming_liability_off_premise_street: '2814 Prarie Grove Drive'
+  home_farming_liability_off_premise_city: 'Fort Wayne'
+  home_farming_liability_off_premise_state: 'Indiana'
+  home_farming_liability_off_premise_zip: '46674'
+
+
+

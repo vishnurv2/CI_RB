@@ -1,0 +1,17 @@
+expected_applicant:
+  is_contact: 'Yes'
+  name_prefix: 'Mrs.'
+  first_name: 'Samfirstname'
+  middle_name: 'middletest'
+  last_name: 'Murphylastname'
+  name_suffix: 'III'
+  nickname: 'darius'
+  date_of_birth: '08/20/1970'
+  gender: 'Male'
+  marital_status: 'Single'
+  emails:
+    - 'fddfsd@sdgsgd.com'
+  phones:
+    - type: 'Mobile'
+      number: '2087012534'
+  address: '4285 Retha Locks, Gary, IN 46401-'

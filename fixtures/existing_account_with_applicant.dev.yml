@@ -1,0 +1,7 @@
+---
+<%= include_yml("expected_applicant.yml") %>
+<%= include_yml("valid_creds.yml") %>
+existing_account:
+  id: 9280424877
+existing_auto_policy:
+  id: 9280424896

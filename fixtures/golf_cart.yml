@@ -1,0 +1,8 @@
+other_vehicle_modal:
+  type_of_vehicle: Golf cart
+  vehicle_year: 2016
+  vehicle_make: Golf
+  vehicle_model: Cart
+  vehicle_identification_number: '1234567890'
+  vehicle_value: '100'
+  territory: 275 (100%)

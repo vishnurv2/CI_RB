@@ -1,0 +1,90 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_dwelling_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+property_info_modal:
+  form_type: '3-Special'
+  rating_tier: 'Central'
+  premise_address: '3715 KIRKLYNN DR, NEW HAVEN, IN 46774'
+  prefill_property_info: true
+  year_built: '1959'
+  date_purchased: '07/16/2016'
+  #  seasonal_dwelling: 'No'
+  premise_use: 'Primary'
+  occupancy: 'Owner Occupied'
+  number_of_families: '1'
+  roof_type: 'Aluminum'
+  roof_updates: 'Complete'
+  updated_roof_year: '2010'
+  structure_type: 'Townhouse'
+  construction_type: 'Frame w/Siding'
+  number_of_family_units: '1'
+  distance_from_water: 'Less than 1,000 Feet'
+  protection_class: '03'
+  primary_heat: 'Electric'
+  secondary_heat: 'Electric'
+  xxfuel_storage_location: 'Indoors Above Ground Masonry Floor'
+  #prefill_property_info=: true
+auto_prefill_modal:
+  vehicle_selections:
+    - false
+    - false
+  driver_selections:
+    - false
+auto_policy_level_coverages_modal:
+  coverage_a_dwelling: true
+  coverage_a_dwelling_text: '$30000'
+  coverage_c_dwelling: true
+  coverage_c_dwelling_text: '$100,000'
+  #coverage_e_dwelling: true
+  #coverage_e_total_limit: '$100,000'
+  wind_hail_deductible: '$2,000'
+auto_policy_optional_coverages_modal:
+  actual_cash_value_loss_settlement: true
+  coverage_a_replacement_cost_percentage: '50-80% of Replacement Cost'
+  animal_exclusion_endorsement: true
+  description_of_animal: 'test'
+  business_pursuits: true
+  name_of_business: 'ABCD'
+  type_of_business: 'Teacher - lab, athletic, manual or physical training'
+  liability_limit: '$300,000'
+  med_pay: '$2,000'
+  canine_liability: true
+  name_of_the_dog: 'Jerry'
+  breed_of_the_dog: 'Shih tzu'
+  course_of_construction: true
+  course_of_construction_type: 'Renovation'
+  general_contractor_no: 'No'
+  date_of_construction: ~today
+  estimated_completion_date: '08/27/2022'
+  occupied_during_construction_no: 'No'
+  earthquake: true
+  earthquake_deductible: '15%'
+  masonary_veneer_coverage: 'Included'
+  equipment_breakdown: true
+  functional_replacement_cost_loss_settlement: true
+  improvements_alterations_and_additions: true
+  amount: '$500'
+  home_limited_fungi_rot: true
+  home_limited_fungi_rot_liability_property: '$50,000'
+  home_limited_fungi_rot_liability_limit: '$100,000'
+  home_loss_assessment_resident_premises: true
+  loss_assessment_residence_description: 'New description'
+  home_loss_assessment_resident_premises_limit_input: '2000'
+  home_manual_coverage: true
+  home_manual_coverage_premium: '$500'
+  home_manual_coverage_description: 'test new'
+  ordinace_or_law_increased_limit: true
+  home_ordinance_or_law_limit: '25%'
+  other_structures_specifically_insured_on_premise: true
+  total_limit_other_structures: '$1000'
+  other_structures_exclusion_endorsement: true
+  replacement_cost_on_the_dwelling_additional_amount: true
+  theft: true
+  on_premises: '$1000'
+  off_premises: '$1000'
+  theft_of_building_materials: true
+  building_material_total_limit: '1000'
+
+
+

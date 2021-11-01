@@ -1,0 +1,11 @@
+property_info_modal:
+  form_type: '5(G) - Signature Homeowners'
+  prefill_property_info: true
+  primary_heat: 'Electric'
+  secondary_heat: 'Electric'
+  xxfuel_storage_location: 'Indoors Above Ground Masonry Floor'
+auto_policy_level_coverages_modal:
+  coverage_a: '$25,000'
+  water_backup_limit: '$25,000'
+auto_policy_optional_coverages_modal:
+  home_personal_cyber_protection: false

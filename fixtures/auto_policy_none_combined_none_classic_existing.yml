@@ -1,0 +1,20 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("existing_angular_account_21.yml") %>
+auto_vehicle_coverages_modal:
+  Collision: '$500'
+  Other Than Collision: '$500'
+auto_vehicle_modal:
+  type_of_vehicle: 'Limited Use Auto'
+  vehicle_identification_number: '1GNBT18ZXL'
+#  vehicle_use: 'Business'
+  agreed_value: 'Yes'
+  stated_amount: 'No'
+  black_book_model: 'S-10 Blazer Utility'
+  vehicle_value_types: Current Retail Value
+vehicle_information_panel:
+  vehicle_year: '1990'
+  vehicle_make: Chevrolet
+  vehicle_model: S10 BLAZER
+  vehicle_vin: '1GNBT18ZXL'
+

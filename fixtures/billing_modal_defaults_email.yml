@@ -1,0 +1,8 @@
+billing_account_add_product_modal:
+  bill_plan: Annual
+  payment_method: Other (paper check, E-check, Credit or Debit Card)
+  billing_email: Add New
+  new_billing_email: ~email_address
+expected_grid_data:
+  bill_plan: Annual
+  payment_method: Paper check, E-check, Credit or Debit Card

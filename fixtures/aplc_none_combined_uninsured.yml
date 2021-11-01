@@ -1,0 +1,15 @@
+auto_policy_level_coverages_modal:
+  enhanced_coverage: summit
+  split_combined_single_limit: Combined Single Limit
+  decline_medical_coverage: true
+  combined_single_limit: $500,000
+  uninsured_underinsured_coverage: true
+  uninsured_underinsured_type: Uninsured / Underinsured Motorist
+  uninsured_underinsured_property_damage_deductible: $0
+expected_auto_policy_level_coverages:
+  enhanced_coverage: 'Summit'
+  combined_single_limit: $500,000
+  medical_payments: Coverage Declined
+  uninsured_motorist_option: "Uninsured and Underinsured"
+  uninsured_motorist_limit: $500,000
+  #uninsured_motorist_property_deductible: $0

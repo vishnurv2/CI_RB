@@ -1,0 +1,13 @@
+auto_policy_level_coverages_modal:
+  coverage_a: '$5,000'
+  coverage_e_personal: '$100,000'
+  coverage_f_medical: '$500'
+  xxwind_hail_deductible: '$1,500'
+auto_policy_optional_coverages_modal:
+  home_loss_assessment_additional_locations: true
+  home_loss_assessment_additional_locations_limit: '$5,000'
+  home_loss_assessment_additional_locations_street: '121 Main Street'
+  home_loss_assessment_additional_locations_city: 'New Haven'
+  home_loss_assessment_additional_locations_state: 'Indiana'
+  home_loss_assessment_additional_locations_zip: '46774'
+

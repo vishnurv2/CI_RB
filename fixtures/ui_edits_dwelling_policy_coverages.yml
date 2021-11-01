@@ -1,0 +1,9 @@
+auto_policy_level_coverages_modal:
+  coverage_a_dwelling: true
+  coverage_a_dwelling_text: '$789'
+  coverage_c_dwelling: true
+  coverage_c_dwelling_text: '$456'
+  coverage_d_dwelling: true
+  coverage_e_dwelling: true
+  coverage_e_total_limit: '7678'
+  #wind_hail_deductible: '$2,000'

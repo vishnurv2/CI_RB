@@ -1,0 +1,49 @@
+
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("2016_cadillac_escalade_full_vin.yml") %>
+<%= include_yml("generic_fake_driver.yml") %>
+
+add_product_modal:
+  personal_products:
+    automobile: true
+    residential: true
+    scheduled_property: false
+    watercraft: false
+    dwelling: false
+    umbrella: false
+  policy_effective_date: ~tomorrow
+  state: Indiana
+new_personal_account_modal:
+  select_agency: HUPE INSURANCE SERVICES (0-4218)
+  agency_contact: MATTHEW R HUPE
+  first_name: ~first_name
+  middle_name: 'M'
+  last_name: ~last_name
+  is_contact: 'Yes'
+  xxgender: Male
+  date_of_birth: ~full_adult_birth_date
+  xxmarital_status: Single
+  email: ~email_address
+  phone: ~phone_number
+  address_details:
+    address_line_1: '3715 KIRKLYNN DR'
+    city: 'NEW HAVEN'
+    state: 'Indiana'
+    zip_code: '46774'
+    county: 'Allen'
+
+auto_general_info_modal:
+  producer_index: 1
+
+
+auto_policy_level_coverages_modal:
+  enhanced_coverage: auto_plus
+  split_combined_single_limit: Combined Single Limit
+  uninsured_underinsured_coverage: false
+  decline_medical_coverage: false
+  medical_payments: $100,000
+  combined_single_limit: $200,000
+
+
+
+

@@ -1,0 +1,10 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+<%= include_yml("aplc_sig_split_uninsured.yml") %>
+<%= include_yml("2016_cadillac_escalade.yml") %>
+<%= include_yml("generic_fake_driver.yml") %>
+auto_vehicle_coverages_modal:
+  Collision: '$500'
+  Other Than Collision: '$500'

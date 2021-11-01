@@ -1,0 +1,38 @@
+driver:
+  DriverNumber: 1
+  DriverRelationshipToApplicant: "OtherRelative"
+  DriverLicense:
+    LicenseNumber: "1160137783"
+    LicenseState: "IN"
+    LicenseStatus: "Valid"
+  Role: "Driver"
+  AddressType: ""
+  Address:
+    Addr1: "3715 KIRKLYNN DR"
+    City: "NEW HAVEN"
+    State: "IN"
+    PostalCode: "46774"
+    County: "ALLEN COUNTY"
+    Country: "US"
+    BypassScrubInd: true
+    SuccessfullyScrubbedDtTm: ~year_now
+  PartyType: "Person"
+  PersonInfo:
+    Gender: "Male"
+    BirthDt: ~full_adult_birth_date
+    MaritalStatus: "Single"
+    Occupation: ""
+    OccupationDesc: ""
+    Language: ""
+    Employer: ""
+  PartyNameInfo:
+    GivenName: ~first_name
+    Surname: ~last_name
+    OtherGivenName: ~user_name
+    NickName: ~user_name
+    OrganizationName: ""
+  Emails:
+    - EmailAddress: ~email_address
+  Phones:
+    - PhoneNumber: ~phone_number
+      PhoneType: "Mobile"

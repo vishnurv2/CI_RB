@@ -1,0 +1,16 @@
+auto_driver_modal:
+  existing_party: 1
+  #  name_prefix: ~name_prefix
+  xxfirst_name: ~first_name
+  xxmiddle_name: ~first_name
+  xxlast_name: ~last_name
+  #  name_suffix: ~name_suffix
+  gender: Male
+  xxdate_of_birth: ~full_adult_birth_date
+  marital_status: Single
+  relationship_to_applicant: 'Other Relative'
+  license_state: 'Indiana'
+  license_number: '1160137783'
+auto_driver_assignment_modal:
+  drivers:
+    - - 0

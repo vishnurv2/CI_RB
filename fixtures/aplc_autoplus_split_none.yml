@@ -1,0 +1,12 @@
+auto_policy_level_coverages_modal:
+  enhanced_coverage: auto_plus
+  split_combined_single_limit: Split Limits
+  uninsured_underinsured_coverage: false
+  decline_medical_coverage: true
+  bodily_injury_liability: $100,000 / $200,000
+  property_damage_liability: $250,000
+expected_auto_policy_level_coverages:
+  #bodily_injury_liability: $100,000 / $200,000 put both back in
+  #property_damage_liability: $250,000
+  enhanced_coverage: Auto Plus
+  

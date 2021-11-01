@@ -1,0 +1,20 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_scheduled_property_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+scheduled_property_policy_level_coverages_modal:
+  construction_location: 'Frame'
+  family_numbers: 2
+  smoke_detectors_on_all_floors: true
+scheduled_property_classes_modal:
+  bicycles: true
+  blanket_value_coverage: 'Yes'
+  blanket_total_amount: '100'
+  blanket_per_item_amount: 2
+  blanket_deductible: 2
+  agreed_value_coverage: 'Yes'
+  bicycles_agreed_amount: '100'
+  bicycles_agreed_deductible: '$250'
+  bicycles_item_name: 'Item'
+  bicycles_item_description: 'Test'
+  bicycles_item_amount: '10'

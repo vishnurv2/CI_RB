@@ -1,0 +1,13 @@
+auto_policy_level_coverages_modal:
+  coverage_a: '$5,000'
+  coverage_e_personal: '$100,000'
+  coverage_f_medical: '$500'
+  xxwind_hail_deductible: '$1,500'
+auto_policy_optional_coverages_modal:
+  home_liability_extension: true
+  home_liability_extension_num_families: '2'
+  home_liability_extension_street: '3715 Kirklynn Drive'
+  home_liability_extension_city: 'New Haven'
+  home_liability_extension_state: 'Indiana'
+  home_liability_extension_zip: '46774'
+

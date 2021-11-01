@@ -1,0 +1,10 @@
+hull_and_motor_information_modal:
+  hull: Ski boat
+  year: 2015
+  make: Chaparral
+  model: 287 SSX
+  length: 30
+  serial_number: '1234556'
+  registration_number: '1234567'
+  physical_damage_limit: 2000
+  has_motor: 'no'

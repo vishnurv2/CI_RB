@@ -1,0 +1,23 @@
+auto_vehicle_modal:
+  vehicle_use: Business
+  vehicle_identification_number: '1GY&3AKJ&G'
+  agreed_value: 'Yes'
+  xx_cost_new: '77320.00'
+  black_book_series: Base
+  xxblack_book_year: '2016'
+  xxblack_book_make: Cadillac
+  xxblack_book_model: Escalade
+  black_book_style: 4D SUV 4WD
+  value_type: original cost
+  address_select: New Address
+  address_details:
+    address_line_1: 800 S Washington St
+    city: Van Wert
+    state: Ohio
+    zip: 45891
+  anti_theft_device: 'No Anti-Theft Device'
+vehicle_information_panel:
+  vehicle_year: '2016'
+  vehicle_make: Cadillac
+  vehicle_model: Escalade
+  vehicle_vin: '1GY&3AKJ&G'

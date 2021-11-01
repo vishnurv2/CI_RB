@@ -1,0 +1,22 @@
+auto_vehicle_modal:
+  vehicle_identification_number: '1GYS3DKJXGR264503'
+  vehicle_use: Business
+  agreed_value: 'Yes'
+  expected_cost_new: '77320.00'
+  black_book_series: Base
+  black_book_style: 4D SUV 4WD
+  purchase_date: ~today
+  annual_miles: '100'
+  xxblack_book_year: '2016'
+  xxblack_book_make: Cadillac
+  xxblack_book_model: Escalade
+  vehicle_value_types: Original Cost
+  xxanti_theft_device: 'No Anti-Theft Device'
+  performance: 'High'
+  garage_address: 1
+  territory: 0
+vehicle_information_panel:
+  vehicle_year: '2016'
+  vehicle_make: Cadillac
+  vehicle_model: Escalade
+  vehicle_vin: '1GYS3DKJXGR264503'

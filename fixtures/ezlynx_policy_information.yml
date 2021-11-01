@@ -1,0 +1,17 @@
+policy_information:
+  prior_carrier: 'AIG'
+  policy_expiration_date: ~tomorrow
+  prior_liability_limits: '500/500'
+  prior_policy_term: '12 Month'
+  years_with_prior_carrier: 3
+  months_prior_carries: 4
+  years_with_continuous_coverage: 3
+  months: 5
+  credit_check: 'Yes'
+  new_policy_term: '12 Month'
+  quote_as_package: 'No'
+
+policy_eff_date:
+  policy_effective_date: ~tomorrow
+
+

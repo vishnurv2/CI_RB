@@ -1,0 +1,16 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("clue_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+<%= include_yml("named_non_owner.yml") %>
+auto_vehicle_coverages_modal:
+  Collision: '$500'
+  Other Than Collision: '$500'
+  Trip Interruption: true
+auto_driver_modal:
+  drivers:
+    - gender: Male
+      marital_status: Single
+      relationship_to_applicant: Spouse
+      license_number: '8941889319'
+      license_state: Indiana

@@ -1,0 +1,31 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("existing_account_34.yml") %>
+additional_applicant:
+#  existing_party: Add Party
+  first_name: ~first_name
+  middle_name: ~first_name
+  last_name: ~last_name
+  name_prefix: ~name_prefix
+  name_suffix: ~name_suffix
+  #preferred_language: English
+#  is_contact: 'Yes'
+  select_gender: Male
+  nickname: ~user_name
+  date_of_birth: ~full_adult_birth_date
+  marital_status: Single
+  emails:
+  - ~email_address
+  - ~email_address
+  phone_numbers:
+  - number: ~phone_number
+    type: Home
+  - number: ~phone_number
+    type: Mobile
+  address_details:
+    address_line_1: ~street_address
+    city: Gary
+    state: Indiana
+    zip_code: '46401'
+    county: Lake
+    xxbypass_address_scrubber: 'true'

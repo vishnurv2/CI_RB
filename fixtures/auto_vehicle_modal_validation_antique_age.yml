@@ -1,0 +1,8 @@
+---
+auto_vehicle_modal:
+  identification_type: 'Year/Make/Model'
+  type_of_vehicle: Antique
+  vehicle_year: ~this_year
+  vehicle_make: 0
+  vehicle_model: 0
+  vehicle_style: 0

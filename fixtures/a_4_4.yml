@@ -1,0 +1,41 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("existing_account_11.yml") %>
+auto_vehicle_modal:
+  enter_vehicle_by: Year/Make/Model
+  vehicle_year: 2011
+  vehicle_make: Toyota
+  vehicle_model: 4RUNNER
+  vehicle_style: UTL4X44D 4.0
+  vehicle_use: Business
+  agreed_value: 'Yes'
+  black_book_series: SR5
+  black_book_style: 4D SUV 4X4 V6
+  vehicle_value_types: Original Cost
+  purchase_date: ~today
+  annual_miles: '100'
+vehicle_information_panel:
+  vehicle_year: '2011'
+  vehicle_make: Toyota
+  vehicle_model: 4RUNNER
+  vehicle_vin: 'JTEBU5JR&B'
+vehicle_edit_info:
+  enter_vehicle_by: Year/Make/Model
+  vehicle_year: 2015
+  vehicle_make: Toyota
+  vehicle_model: 4RUNNER
+  vehicle_style: UTL4X44D 4.0
+  vehicle_use: Business
+  agreed_value: 'Yes'
+  black_book_series: Limited
+  black_book_style: 4D SUV 4X4 V6
+  vehicle_value_types: Original Cost
+  purchase_date: ~today
+  annual_miles: '100'
+expected_vehicle_info:
+  vehicle_year: '2015'
+  vehicle_make: Toyota
+  vehicle_model: 4RUNNER
+  vehicle_vin: 'JTEBU5JR&F'
+
+

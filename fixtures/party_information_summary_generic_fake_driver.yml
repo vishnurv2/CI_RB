@@ -1,0 +1,17 @@
+auto_driver_modal:
+  existing_party: New Party
+  first_name: ~first_name
+  middle_name: ~first_name
+  last_name: ~last_name
+#  name_prefix: ~name_prefix
+#  name_suffix: ~name_suffix
+  gender: Male
+  nickname: ~user_name
+  date_of_birth: ~full_adult_birth_date
+  marital_status: Single
+  relationship_to_applicant: Spouse
+  license_number: '1160137783'
+  license_state: Indiana
+auto_driver_assignment_modal:
+  drivers:
+    - - 1

@@ -1,0 +1,6 @@
+auto_general_info_modal:
+#  rating_state: 'Ohio'
+  effective_date: ~today
+  producer_index: 0
+  #territory: 0
+  #mailing_address: '1'

@@ -1,0 +1,14 @@
+billing_account_add_product_modal:
+  bill_plan: annual
+  payment_method: manual
+  e_billing: true
+  billing_email: Add New
+  new_billing_email: ~email_address
+expected_grid_data:
+  bill_plan: Annual
+  payment_method: Manual Payment
+edit_billing_account_data:
+  payment_method: manual
+  e_billing: true
+  billing_email: Add New
+  new_billing_email: ~email_address

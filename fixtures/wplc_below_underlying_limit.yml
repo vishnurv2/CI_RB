@@ -1,0 +1,30 @@
+auto_general_info_modal:
+  producer_index: 1
+
+auto_policy_level_coverages_modal:
+  watercraft_personal_liability: true
+  wpl_coverage_x: '$200,000'
+  watercraft_medical_payments: true
+  wmp_coverage_y: '$2,000'
+
+hull_and_motor_information_modal:
+  hull: Bass boat
+  year: 2021
+  make: Chaparral
+  model: 287 SSX
+  length: 28
+  serial_number: '1234556'
+  registration_number: '1234567'
+  physical_damage_limit: 1000
+  has_motor: 'no'
+
+watercraft_operator_modal:
+  existing_party: 1
+  gender: 'Male'
+  marital_status: 'Single'
+  license_state: 'Indiana'
+  license_number: '1160137783'
+  years_of_boating_experience: 1
+  safety_course: 'No'
+  
+

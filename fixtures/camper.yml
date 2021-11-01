@@ -1,0 +1,9 @@
+other_vehicle_modal:
+  type_of_vehicle: Camper
+  vehicle_year: 2016
+  vehicle_make: Adventurer
+  vehicle_model: Adventurer
+  vehicle_style: 116DS
+  vehicle_identification_number: '1234567890'
+  vehicle_value: '12345'
+  territory: 275 (100%)

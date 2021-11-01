@@ -1,0 +1,18 @@
+property_info_modal:
+  xxresidential_location_type: 'Homeowner'
+  form_type: '6 - Condominium'
+  prefill_property_info: true
+  year_built: '1959'
+  date_purchased: '07/16/2016'
+  under_construction: 'No'
+  premise_use: 'Rented to Others (Condo)'
+#  number_of_families: '1'
+  number_of_stories: '2'
+  roof_type: 'Composition Shingles (Asphalt)'
+  roof_updates: 'Complete'
+  updated_roof_year: '2010'
+  structure_type: 'Townhouse'
+  construction_type: 'Frame w/Siding'
+  number_of_family_units: '1'
+  distance_from_water: 'Less than 1,000 Feet'
+  protection_class: '03'

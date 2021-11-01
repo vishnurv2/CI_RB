@@ -1,0 +1,16 @@
+hull_and_motor_information_modal:
+  hull: Bass boat
+  year: 2021
+  make: Chaparral
+  model: 287 SSX
+  length: 28
+  xxserial_number: '1234556'
+  xxregistration_number: '1234567'
+  physical_damage_limit: 1000
+  has_motor: 'yes'
+  motor_type: Outboard
+  motor_year: '2010'
+  motor_make: 'everrude'
+  motor_model: '150'
+  motor_serial_number: '12345678K'
+  engine_size: 345

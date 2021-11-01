@@ -1,0 +1,18 @@
+auto_policy_level_coverages_modal:
+  enhanced_coverage: summit
+  split_combined_single_limit: Split Limits
+  decline_medical_coverage: true
+  uninsured_underinsured_coverage: true
+  uninsured_underinsured_type: Uninsured / Underinsured Motorist
+  bodily_injury_liability: $100,000 / $200,000
+  xproperty_damage_liability: $250,000
+  xdecline_property_damage_coverage: false
+  uninsured_motorist_property_liability: $25,000
+  uninsured_motorist_property_deductible: $0
+expected_auto_policy_level_coverages:
+  #bodily_injury_liability: $100,000 / $200,000
+  #medical_payments: 'No Coverage'
+  #uninsured_motorist_option: "Uninsured / Underinsured Motorist"
+  #property_damage_liability: $250,000
+  enhanced_coverage: 'Summit'
+  #uninsured_motorist_limit: $100,000 / $200,000

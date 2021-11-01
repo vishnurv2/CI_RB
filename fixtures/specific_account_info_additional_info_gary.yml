@@ -1,0 +1,29 @@
+add_product_modal:
+  personal_products:
+    automobile: true
+    residential_locations: false
+    umbrella: false
+    scheduled_property: false
+    watercraft: false
+    dwelling: false
+  policy_effective_date: ~today
+  state: Indiana
+new_personal_account_modal:
+  select_agency: HUPE INSURANCE SERVICES (0-4218)
+  agency_contact: MATTHEW R HUPE
+  first_name: 'GARY'
+  middle_name: 'P'
+  last_name: 'ADAMS'
+  is_contact: 'Yes'
+  xxgender: Male
+  date_of_birth: '01/04/1963'
+  xxmarital_status: Single
+  email: ~email_address
+  phone: ~phone_number
+  address_details:
+    address_line_1: '11082 N PINE BLUFF RD'
+    city: 'BICKNELL'
+    state: 'Indiana'
+    zip_code: '47512'
+
+

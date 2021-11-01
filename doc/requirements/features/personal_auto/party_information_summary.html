@@ -1,0 +1,2750 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Feature: Party Information Summary
+  
+    &mdash; Documentation by YARD 0.9.18
+  
+</title>
+
+  <link rel="stylesheet" href="../../../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../../../css/common.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../../../css/cucumber.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "requirements::features::personal_auto::party_information_summary";
+  relpath = '../../../';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/app.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/cucumber.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="../../../feature_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="../../../_index.html">Index (p)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../../../requirements.html" title="requirements (requirements)">requirements</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../../features.html" title="requirements::features (featuredirectory)">features</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../personal_auto.html" title="requirements::features::personal_auto (featuredirectory)">personal_auto</a></span></span>
+     &raquo; 
+    <span class="title">party_information_summary</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="feature_list_link"
+        href="../../../feature_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><script type="text/javascript" charset="utf-8">
+$(function() {
+  $(".developer").hide();
+  $(".scenario .title").css('cursor','pointer');
+});
+</script>
+
+<div class="feature">
+  <div class="title">
+    <a id="view" class="control" href="#">[More Detail]</a>
+    <a id="expand" class="control" href="#">[Collapse All]</a>
+    <div style="clear: right;"></div>
+    <span class="pre">Feature:</span>
+    <span class="name">Party Information Summary</span>
+  </div>
+
+  
+
+  <div class="description">
+    
+  </div>
+
+  <div class="meta">
+    <div class="file developer">features/personal_auto/party_information_summary.feature</div>
+    <div style="clear: right;"></div>
+    <div class="tags developer">
+      
+      <a href="../../tags/indiana_auto.html">@indiana_auto</a>
+      
+      <a href="../../tags/personal_auto.html">@personal_auto</a>
+      
+    </div>
+  </div>
+
+  
+</div>
+
+<div class="scenario scenario_0">
+  <a name="scenario_0" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario Outline:</span>
+      <span class="name">Policy Issuance shows all products</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_0">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/party_information_summary.feature:5</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/fixture_party_information_summary_auto_policy_autoplus_combined_none.html">@fixture_party_information_summary_auto_policy_autoplus_combined_none</a>
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+      I have started a new auto policy through the &quot;auto driver&quot; modal
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+      I navigate to &quot;Quote Management&quot; using the left nav
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+      I begin the issuance of the policy
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+      I navigate to &quot;Party Information&quot; using the left nav
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+      I add the party for the &lt;fixture_file&gt;
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+      I should see the party in the included parties panel
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  
+    <div style="display: none;" class="steps example1-1">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have started a new auto policy through the "<span class='match'>auto driver</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition126-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Management</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I begin the issuance of the policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition330-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Party Information</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add the party for the <span class='match'>party_information_summary_applicant</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition332-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see the party in the included parties panel
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition331-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-2">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have started a new auto policy through the "<span class='match'>auto driver</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition126-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Management</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I begin the issuance of the policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition330-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Party Information</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add the party for the <span class='match'>party_information_summary_lessor</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition332-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see the party in the included parties panel
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition331-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+
+
+
+<div class="outline">
+  
+  
+    
+    
+      <div class="keyword">
+        Examples
+      </div>
+      <div class="example-group-name"></div>
+      <br style="clear: both;"/>
+      <table>
+        <thead>
+          <tr>
+            
+              <th>fixture_file</th>
+            
+          </tr>
+        </thead>
+        
+          
+          <tr class="odd example1-1">
+            
+              <td>party_information_summary_applicant</td>
+            
+          </tr>
+          
+          <tr class="even example1-2">
+            
+              <td>party_information_summary_lessor</td>
+            
+          </tr>
+          
+        
+      </table>
+    
+    
+  
+</div>
+
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+<div class="scenario scenario_1">
+  <a name="scenario_1" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario Outline:</span>
+      <span class="name">Policy Issuance shows all products</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_1">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/party_information_summary.feature:18</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/regression.html">@regression</a>
+          
+            <a href="../../tags/fixture_party_information_summary_auto_policy_autoplus_combined_none.html">@fixture_party_information_summary_auto_policy_autoplus_combined_none</a>
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+      I have started a new auto policy through the &quot;auto driver&quot; modal
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+      I navigate to &quot;Quote Management&quot; using the left nav
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+      I begin the issuance of the policy
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+      I navigate to &quot;Party Information&quot; using the left nav
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+      I add the party for the &lt;fixture_file&gt;
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+      I should see the party in the included parties panel
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  
+    <div style="display: none;" class="steps example1-1">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have started a new auto policy through the "<span class='match'>auto driver</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition126-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Management</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I begin the issuance of the policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition330-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Party Information</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add the party for the <span class='match'>party_information_summary_loss_payee</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition332-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see the party in the included parties panel
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition331-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-2">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have started a new auto policy through the "<span class='match'>auto driver</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition126-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Management</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I begin the issuance of the policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition330-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Party Information</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add the party for the <span class='match'>party_information_summary_trust</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition332-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see the party in the included parties panel
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition331-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-3">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have started a new auto policy through the "<span class='match'>auto driver</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition126-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Management</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I begin the issuance of the policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition330-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Party Information</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add the party for the <span class='match'>party_information_summary_corporate_auto</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition332-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see the party in the included parties panel
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition331-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-4">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have started a new auto policy through the "<span class='match'>auto driver</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition126-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Management</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I begin the issuance of the policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition330-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Party Information</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add the party for the <span class='match'>party_information_summary_additional_interest</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition332-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see the party in the included parties panel
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition331-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-5">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have started a new auto policy through the "<span class='match'>auto driver</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition126-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Management</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I begin the issuance of the policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition330-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Party Information</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add the party for the <span class='match'>party_information_summary_joint_ownership</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition332-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see the party in the included parties panel
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition331-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+
+
+
+<div class="outline">
+  
+  
+    
+    
+      <div class="keyword">
+        Examples
+      </div>
+      <div class="example-group-name"></div>
+      <br style="clear: both;"/>
+      <table>
+        <thead>
+          <tr>
+            
+              <th>fixture_file</th>
+            
+          </tr>
+        </thead>
+        
+          
+          <tr class="odd example1-1">
+            
+              <td>party_information_summary_loss_payee</td>
+            
+          </tr>
+          
+          <tr class="even example1-2">
+            
+              <td>party_information_summary_trust</td>
+            
+          </tr>
+          
+          <tr class="odd example1-3">
+            
+              <td>party_information_summary_corporate_auto</td>
+            
+          </tr>
+          
+          <tr class="even example1-4">
+            
+              <td>party_information_summary_additional_interest</td>
+            
+          </tr>
+          
+          <tr class="odd example1-5">
+            
+              <td>party_information_summary_joint_ownership</td>
+            
+          </tr>
+          
+        
+      </table>
+    
+    
+  
+</div>
+
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+<div class="scenario scenario_2">
+  <a name="scenario_2" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario:</span>
+      <span class="name">Added Parties Can Be Edited</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_2">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/party_information_summary.feature:34</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/fixture_party_information_summary_edit_party.html">@fixture_party_information_summary_edit_party</a>
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have started a new auto policy through the "<span class='match'>auto driver</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition126-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Management</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I begin the issuance of the policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition330-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Party Information</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add the party
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition333-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I edit the party
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition334-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          the appropriate party modal should be visible
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition335-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I add a role
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition336-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see the role I added
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition337-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+<div class="scenario scenario_3">
+  <a name="scenario_3" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario Outline:</span>
+      <span class="name">Trashcan is Disabled For Last Applicant and Enabled For Multiple Applicants</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_3">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/party_information_summary.feature:46</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/fixture_party_information_summary_auto_policy_autoplus_combined_none.html">@fixture_party_information_summary_auto_policy_autoplus_combined_none</a>
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+      I have started a new auto policy through the &quot;auto driver&quot; modal
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+      I navigate to &quot;Quote Management&quot; using the left nav
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+      I begin the issuance of the policy
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+      I navigate to &quot;Party Information&quot; using the left nav
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+      I should see the disabled trashcan with an error message
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+      I add the party for the &lt;fixture_file&gt;
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+      I should not see the disabled trashcan with an error message
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  
+    <div style="display: none;" class="steps example1-1">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have started a new auto policy through the "<span class='match'>auto driver</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition126-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Management</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I begin the issuance of the policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition330-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Party Information</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I <span class='match'>should</span> see the disabled trashcan with an error message
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition339-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I add the party for the <span class='match'>party_information_summary_applicant</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition332-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I <span class='match'>should not</span> see the disabled trashcan with an error message
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition339-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+
+
+
+<div class="outline">
+  
+  
+    
+    
+      <div class="keyword">
+        Examples
+      </div>
+      <div class="example-group-name"></div>
+      <br style="clear: both;"/>
+      <table>
+        <thead>
+          <tr>
+            
+              <th>fixture_file</th>
+            
+          </tr>
+        </thead>
+        
+          
+          <tr class="odd example1-1">
+            
+              <td>party_information_summary_applicant</td>
+            
+          </tr>
+          
+        
+      </table>
+    
+    
+  
+</div>
+
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+<div class="scenario scenario_4">
+  <a name="scenario_4" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario:</span>
+      <span class="name">Party Entry Fields Are Hidden Before Existing Party is Selected</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_4">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/party_information_summary.feature:59</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/regression.html">@regression</a>
+          
+            <a href="../../tags/fixture_party_information_summary_edit_party.html">@fixture_party_information_summary_edit_party</a>
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have started a new auto policy through the "<span class='match'>auto driver</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition126-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Management</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I begin the issuance of the policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition330-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Party Information</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I start to add the party
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition340-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I <span class='match'>should not</span> see the trust party information fields
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition341-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I select "<span class='match'>Add New</span>" for the "<span class='match'>existing party</span>" dropdown on the "<span class='match'>trust party</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition13-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I <span class='match'>should</span> see the trust party information fields
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition341-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+<div class="scenario scenario_5">
+  <a name="scenario_5" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario:</span>
+      <span class="name">The Last Applicant Cannot Be Deleted From the Role Information Modal</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_5">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/party_information_summary.feature:70</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/fixture_party_information_summary_auto_policy_autoplus_combined_none.html">@fixture_party_information_summary_auto_policy_autoplus_combined_none</a>
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have started a new auto policy through the "<span class='match'>auto driver</span>" modal
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition126-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I have loaded the fixture file named "<span class='match'>party_information_summary_one_applicant</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition138-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Management</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I begin the issuance of the policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition330-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Party Information</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I edit the party
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition334-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I should not be able to remove the applicant
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition342-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+</div>
+
+      <div id="footer">
+  Generated on Tue Aug 27 14:13:04 2019 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.18 (ruby-2.5.5).
+</div>
+
+    </div>
+  </body>
+</html>

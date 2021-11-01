@@ -1,0 +1,4 @@
+cancel_non_renew_modal:
+  policy_transaction_type: 'Cancel'
+  reason_dropdown: "Insureds request"
+  cancel_effective_date: ~tomorrow

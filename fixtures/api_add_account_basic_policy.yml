@@ -1,0 +1,17 @@
+basic_auto_policy:
+  PolicyActivityId: 0,
+  PolicyTermId: 0,
+  PolicyTransactionId: 0
+  ActivityStatus: "IncompleteQuote"
+  PolicyId: 0,
+  TermNumber: 0,
+  activitySource: "UserInterface"
+  transactionType: "NewBusiness"
+  lineOfBusiness: "PersonalAuto"
+  riskStateCode: "IN"
+  riskStateDescription: "Indiana"
+  company: "CentralMutualInsurance"
+  enteredDate: ~year_now
+  effectiveDate: ~year_now
+  expirationDate: ~year_from_today
+  transactionEffectiveDate: ~year_from_today

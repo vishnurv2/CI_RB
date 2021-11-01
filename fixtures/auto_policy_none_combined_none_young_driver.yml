@@ -1,0 +1,31 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+<%= include_yml("aplc_none_combined_none.yml") %>
+<%= include_yml("2016_cadillac_escalade.yml") %>
+auto_driver_modal:
+  existing_party: 'New Party'
+  first_name: ~first_name
+  middle_name: ~first_name
+  last_name: ~last_name
+#  name_prefix: ~name_prefix
+#  name_suffix: ~name_suffix
+  gender: Male
+  nickname: ~user_name
+  date_of_birth: ~teen_smart_birth_date
+  marital_status: Single
+  relationship_to_applicant: 'Child'
+  license_state: Indiana
+  license_number: '1234567890'
+#  good_student: true
+#  driver_training: true
+  teen_smart_participation: true
+  teen_smart_certification_checkbox: true
+auto_driver_assignment_modal:
+  drivers:
+    - - 0
+auto_vehicle_coverages_modal:
+  Collision: '$500'
+  Other Than Collision: '$500'
+

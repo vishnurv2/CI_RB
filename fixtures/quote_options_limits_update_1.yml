@@ -1,0 +1,11 @@
+expected_quote_options:
+  umbrella_liability_limit: $2,000,000
+  umbrella_uninsured_field_name: Uninsured/Underinsured Motorist Limit
+  umbrella_uninsured_motorist_limit: $2,000,000
+
+quote_options_panel_one:
+  umbrella_liability_limit: $4,000,000
+  umbrella_uninsured_motorist_limit: $4,000,000
+
+auto_policy_level_coverages_modal:
+  select_uninsured_underinsured_coverage: Uninsured Motorist

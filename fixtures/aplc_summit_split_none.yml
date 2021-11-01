@@ -1,0 +1,14 @@
+auto_policy_level_coverages_modal:
+  enhanced_coverage: Summit
+  split_combined_single_limit: Split Limits
+  uninsured_underinsured_coverage: false
+  decline_medical_coverage: false
+  medical_payments: $1,000
+  bodily_injury_liability: $25,000 / $50,000
+  property_damage_liability: $50,000
+expected_auto_policy_level_coverages:
+  #bodily_injury_liability: $25,000 / $50,000
+  #medical_payments: $1,000   put all these back
+  uninsured_motorist_option: 'Coverage Declined'
+  #property_damage_liability: $50,000
+  enhanced_coverage: 'Summit'

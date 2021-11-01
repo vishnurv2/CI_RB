@@ -1,0 +1,15 @@
+auto_policy_level_coverages_modal:
+  coverage_a: '$5,000'
+  coverage_e_personal: '$100,000'
+  coverage_f_medical: '$500'
+  xxwind_hail_deductible: '$1,500'
+auto_policy_optional_coverages_modal:
+  home_motorized_golf_cart: true
+  home_motorized_golf_cart_year: '2016'
+  home_motorized_golf_cart_make: 'Yamaha'
+  home_motorized_golf_cart_model: 'G1'
+  home_motorized_golf_cart_identification: 'JN6-000101'
+  home_motorized_golf_cart_limit: '$1,000'
+
+
+

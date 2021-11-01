@@ -1,0 +1,16 @@
+auto_policy_level_coverages_modal:
+  enhanced_coverage: auto_plus
+  split_combined_single_limit: Combined Single Limit
+  decline_medical_coverage: false
+  medical_payments: $100,000
+  combined_single_limit: $75,000
+  uninsured_underinsured_coverage: true
+  uninsured_underinsured_type: Uninsured / Underinsured Motorist
+  uninsured_underinsured_property_damage: false
+expected_auto_policy_level_coverages:
+  enhanced_coverage: 'Auto Plus'
+  #combined_single_limit: $75,000
+  #medical_payments: $100,000 Put back in
+  #uninsured_motorist_option: "Uninsured / Underinsured Motorist"
+  #uninsured_motorist_limit: $75,000
+

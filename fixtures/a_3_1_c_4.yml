@@ -1,0 +1,23 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("existing_account_9.yml") %>
+auto_vehicle_modal:
+  vehicle_identification_number: '1GY&3AKJ&G'
+  vehicle_use: Business
+  agreed_value: 'Yes'
+  expected_cost_new: '77320.00'
+  black_book_series: Base
+  black_book_style: 4D SUV 4WD
+  black_book_year: '2016'
+  black_book_make: Cadillac
+  black_book_model: Escalade
+  value_type: original cost
+  xx_anti_theft_device: 'No Anti-Theft Device'
+vehicle_information_panel:
+  vehicle_year: '2016'
+  vehicle_make: Cadillac
+  vehicle_model: Escalade
+  vehicle_vin: '1GY&3AKJ&G'
+
+
+

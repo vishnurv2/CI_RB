@@ -1,0 +1,5 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_umbrella_account_info.yml") %>
+auto_general_info_modal:
+  producer_index: 0

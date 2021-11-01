@@ -1,0 +1,25 @@
+dwelling_informaion:
+  dwelling_usage: 'Seasonal'
+  dwelling_type: 'One Family'
+  number_of_occupants: 3
+  number_of_stories: 1
+  square_footage: 1250
+  year_built: 2010
+  construction_style: 'Cottage'
+  roof_type: 'Rock'
+  foundation_type: 'Basement - Finished'
+  roof_design: 'Flat'
+  exterior_walls: 'Brick on Block'
+  heating_type: 'Oil'
+  purchase_date: '5/25/2021'
+  distance_from_fire_station: 1
+  feet_from_hydrant: '601-1000'
+  protection_class: '4'
+  #heating_update:
+  #year_updated_heating:
+  #electrical_update:
+  #year_updated_electrical:
+  #plumbing_update:
+  #year_updated_plumbing:
+  roofing_update: 'Not Updated'
+  #year_updated_roofing:

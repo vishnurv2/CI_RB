@@ -1,0 +1,27 @@
+vehicle:
+  vehType: "PrivatePassenger"
+  vin: "1GY&3AKJ&G"
+  year: 2016
+  make: "Cadillac"
+  model: "ESCALADE"
+  liabilityAppliesInd: true
+  performanceCode: "High"
+  daytimeRunningLightsInd: false
+  antiTheftDevice: "N"
+  passiveRestraint: "R"
+  vehicleUseCode: "Business"
+  territoryCode: "043"
+  vehicleValueType: "CostNew"
+  costNewAmt: 99060
+  costCurrentAmt: 14972
+  agreedValueAmt: 99060
+  unitNumber: 1
+  garagingAddress:
+    addr1: "3715 KIRKLYNN DR"
+    city: "NEW HAVEN"
+    state: "IN"
+    postalCode: "46774"
+    county: "ALLEN COUNTY"
+    country: "US"
+  premiumInfo:
+    minPremiumInd: false

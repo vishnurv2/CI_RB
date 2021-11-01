@@ -1,0 +1,10 @@
+auto_policy_optional_coverages_modal:
+  animal_exclusion: true
+  business_pursuits: true
+  type_of_business: 3
+  liability_limit: '$100,000'
+  med_pay: '$1,000'
+  canine_liability: true
+  other_structures_specifically_insured_on_premise: true
+  total_limit_other_structures: '$100'
+  other_structures_exclusion_endorsement: true

@@ -1,0 +1,22 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+<%= include_yml("aplc_none_combined_none.yml") %>
+<%= include_yml("generic_fake_driver.yml") %>
+auto_vehicle_coverages_modal:
+  Collision: '$500'
+  Other Than Collision: '$500'
+auto_vehicle_modal:
+  type_of_vehicle: 'Limited Use Auto'
+  vehicle_identification_number: '1GNBT18ZXL'
+  agreed_value: 'No'
+  stated_amount: 'Yes'
+  stated_amount_cost: '77320.00'
+#  black_book_model: 'S-10 Blazer Utility'
+#  vehicle_value_types: Current Retail Value
+vehicle_information_panel:
+  vehicle_year: '1990'
+  vehicle_make: Chevrolet
+  vehicle_model: S10 BLAZER
+  vehicle_vin: '1GNBT18ZXL'

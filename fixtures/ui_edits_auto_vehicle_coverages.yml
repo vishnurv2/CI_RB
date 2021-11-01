@@ -1,0 +1,7 @@
+---
+auto_vehicle_coverages_modal:
+  custom_equipment: true
+  electronic_equipment_check_box: true
+  towing_and_labor: true
+  extended_transportation: true
+  manual_coverage_check_box: true

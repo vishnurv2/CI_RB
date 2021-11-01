@@ -1,0 +1,19 @@
+AgencyContactName=<%= CGI.escape(agency_info['AgencyContacts'].find { |c| c['FullName'] = data['agency_contact'] }['AgentId']) %>
+AgencyName=<%= CGI.escape(data['agency_name']) %>
+agencyRestrictions=System.Collections.Generic.List`1[PolicyManagement.Areas.Account.Models.AgencyRestriction]
+DataTables_Table_0_length=10
+dynamicUrl=/PolicyManagement/Account/Entry
+PersonalProduct|Automobile=false
+PersonalProduct|Automobile=true
+PersonalProduct|Renters=false
+PersonalProduct|Residential=false
+PersonalProduct|ScheduledProperty=false
+PersonalProduct|Umbrella=false
+PersonalProduct|Watercraft=false
+PolicyEffectiveDate=<%=CGI.escape(data['policy_effective_date']) %>
+PreviousModal=AccountLogging
+productCount=System.Collections.Generic.Dictionary`2[System.String,System.Int32]
+SaveAndContinue=
+screenName=AccountLogging
+State=IN
+X-Requested-With=XMLHttpRequest

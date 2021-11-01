@@ -1,0 +1,6 @@
+---
+<%= include_yml("valid_creds.yml") %>
+existing_account:
+  id: 6624856168
+existing_auto_policy:
+  id: 6624856187

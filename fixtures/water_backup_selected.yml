@@ -1,0 +1,5 @@
+auto_policy_level_coverages_modal:
+  water_backup_sump: true
+  essential_circuit_standby_generator: true
+  non_electrical_backup_sump: true
+  generator_portable: true

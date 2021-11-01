@@ -1,0 +1,9 @@
+exposures_insured_with_another_carrier_modal:
+  single_family_homes: 2
+  multi_family_homes: 2
+exposures_insured_with_another_carrier_container_modal:
+  location_property_address: 1
+  limits: '$300,000'
+  carrier: 'ACE'
+  policy_number: '2587365825'
+  effective_date: ~today

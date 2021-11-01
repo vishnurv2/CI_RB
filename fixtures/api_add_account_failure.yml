@@ -1,0 +1,183 @@
+---
+AccountId: 0
+AccountNumber: AC100000
+AgencyRegion:
+AgencyCode:
+AgencyContactAmsId: 9/17/2015 10:30:16 AM-0000446
+AccountStatusCdId: 21895
+AccountParties:
+- Party:
+    PartyId: 0
+    PartyTypeCdId: 21279
+    TaxIdentities: 
+    NameInfoList:
+    - NameInfoTypeCdId: 523827
+      NameInfoId: 0
+      GivenName: CARROLL
+      OtherGivenName: 
+      SurName: KAUFMAN
+      TitlePrefix: 
+      NameSuffix: 
+      NickName: 
+      OrganizationName: 
+      DisplayName: 
+      EffectiveDtTm: 
+      ExpirationDtTm: 
+      ActionCdId: 0
+      ValidationMessages: 
+      IsChanged: false
+      IsCreated: false
+      IsDeleted: false
+      EnableTracking: false
+      ChangedProperties: []
+    Emails:
+    - EmailId: 0
+      PartyId: 0
+      UseCdId: 523802
+      EmailAddress: 
+      DoNotContactInd: 
+      EffectiveDtTm: 
+      ExpirationDtTm: 
+      ActionCdId: 0
+      ValidationMessages: 
+      IsChanged: false
+      IsCreated: false
+      IsDeleted: false
+      EnableTracking: false
+      ChangedProperties: []
+    Phones:
+    - PhoneId: 0
+      PartyId: 0
+      UseCdId: 523802
+      PhoneTypeCdId: 21340
+      PhoneNumber: 401-550-5563
+      CountryCdId: 20343
+      DoNotContactInd: 
+      EffectiveDtTm: 
+      ExpirationDtTm: 
+      ActionCdId: 0
+      ValidationMessages: 
+      IsChanged: false
+      IsCreated: false
+      IsDeleted: false
+      EnableTracking: false
+      ChangedProperties: []
+    PreferredContacts: 
+    DriverLicenses: 
+    CreditHistories: 
+    AdditionalPartyFields: 
+    PersonInfo:
+      PersonInfoId: 0
+      GenderCdId: 20973
+      BirthDt: '1963-10-10T00:00:00'
+      DeathDt: 
+      MaritalStatusCdId: 
+      PersonOccupations: 
+      OccupationDesc: 
+      EducationLevelCdId: 
+      DoNotSolicitInd: 
+      CitizenshipCountryCdId: 
+      NumDependents: 
+      RaceCdId: 
+      MilitaryServiceInd: 
+      ResidenceOwnershipTypeCdId: 
+      LanguageCdId: 
+      EffectiveDtTm: 
+      ExpirationDtTm: 
+      ActionCdId: 0
+      ValidationMessages: 
+      IsChanged: false
+      IsCreated: false
+      IsDeleted: false
+      EnableTracking: false
+      ChangedProperties: []
+    BusinessInfo:
+      BusinessInfoId: 0
+      SicCd: 
+      NaicsCd: 
+      NatureBusinessCdId: 21111
+      BusinessStartDt: 
+      OperationsDesc: 
+      TaxExemptStatusInd: 
+      NumEmployees: 100
+      NumEmployeesFulltime: 
+      NumEmployeesPartTime: 
+      NumDomesticLocations: 
+      ActiveInd: 
+      NumYrsInBusiness: 
+      IncorporatedStateProvCdId: 
+      NumYrsPreviousLocation: 
+      EffectiveDtTm: 
+      ExpirationDtTm: 
+      ActionCdId: 0
+      ValidationMessages: 
+      IsChanged: false
+      IsCreated: false
+      IsDeleted: false
+      EnableTracking: false
+      ChangedProperties: []
+    PartyAccess: 
+    IsChanged: false
+    IsCreated: false
+    IsDeleted: false
+    EnableTracking: false
+    ChangedProperties: []
+  AccountPartyId: 0
+  AccountPartyRoleCdId: 21351
+  IsContactInd: false
+  EffectiveDtTm: '2018-09-17T13:42:37.8278496+05:30'
+  ExpirationDtTm: '9999-12-31T23:59:59.9999999'
+  ActionCdId: 0
+  ValidationMessages: 
+  PartyAddress:
+    AddressId: 0
+    Addr1: 6746 CORDOVA
+    Addr2: 
+    Addr3: 
+    Addr4: 
+    City: New York
+    CityTaxLocationCdId: 
+    StateProvCdId: 21873
+    PostalCode: 
+    InternationalPostalCodeInd: 
+    County: 
+    CountryCdId: 20343
+    LocationLookupQualityCdId: 
+    Latitude: 
+    Longitude: 
+    StreetNumber: 
+    StreetName: CORDOVA
+    StreetTypeCdId: 
+    PreDirectionCdId: 
+    PostDirectionCdId: 
+    ScrubbedAddressId: 
+    BypassScrubInd: 
+    MailingAddressOnlyInd: 
+    SuccessfullyScrubbedDtTm: 
+    AddressDescription: 
+    StateProvValue: 
+    ZipExtension: 
+    EffectiveDtTm: 
+    ExpirationDtTm: 
+    ActionCdId: 0
+    ValidationMessages: 
+    IsChanged: false
+    IsCreated: false
+    IsDeleted: false
+    EnableTracking: false
+    ChangedProperties: []
+  IsChanged: false
+  IsCreated: false
+  IsDeleted: false
+  EnableTracking: false
+  ChangedProperties: []
+AccountPolicies: 
+EffectiveDtTm: '2018-09-17T13:42:37.8161061+05:30'
+ExpirationDtTm: '9999-12-31T23:59:59.9999999'
+ActionCdId: 0
+ValidationMessages: 
+IsChanged: false
+IsCreated: false
+IsDeleted: false
+EnableTracking: false
+ChangedProperties: []

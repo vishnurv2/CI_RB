@@ -1,0 +1,7 @@
+billing_account_add_product_modal:
+  bill_plan: monthly
+  payment_method: manual
+  e_billing: false
+expected_grid_data:
+  bill_plan: Monthly
+  payment_method: Other Payment

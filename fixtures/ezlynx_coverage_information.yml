@@ -1,0 +1,18 @@
+ez_coverage_information:
+  property_damage: 1
+  #uninsured_motorist:
+  #underinsured_motorist:
+
+  bodily_injury: 4
+  medical_payments: '2000'
+
+  uninsured_motorist_property_damage: 1
+
+  residence: 'Other'
+
+  comprehensive: '200'
+  collision: '200'
+  #state_amount: '500'
+
+
+

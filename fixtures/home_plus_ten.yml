@@ -1,0 +1,14 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_home_account_info.yml") %>
+<%= include_yml("home_property_info_modal.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+<%= include_yml("hplc_plus_ten.yml") %>
+auto_prefill_modal:
+  vehicle_selections:
+    - false
+    - false
+  driver_selections:
+    - false
+
+

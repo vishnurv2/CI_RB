@@ -1,0 +1,19 @@
+exposures_insured_with_another_carrier_modal:
+    sailboats: 1
+    less_than_150_H_P: 1
+    more_than_150_H_P: 1
+    less_than_250_H_P: 1
+    more_than_250_H_P: 1
+    personal_watercraft_jet_ski_waverunner: 1
+exposures_insured_with_another_carrier_container_modal:
+    serial_number: '467G7HH737'
+    limit: '$250,000/$500,000/$100,000'
+    effective_date: ~today
+    policy_number: '2587365825'
+    carrier: 'ACE'
+exposures_insured_with_another_carrier_container_modal_exceptional_fields:
+    year: '2014'
+    make: 'Ducati'
+    model: 'Diavel'
+
+

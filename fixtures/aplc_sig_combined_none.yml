@@ -1,0 +1,12 @@
+auto_policy_level_coverages_modal:
+  enhanced_coverage: signature
+  split_combined_single_limit: Combined Single Limit
+  uninsured_underinsured_coverage: false
+  decline_medical_coverage: false
+  medical_payments: $1,000
+  combined_single_limit: $100,000
+expected_auto_policy_level_coverages:
+  enhanced_coverage: 'Signature'
+  #combined_single_limit: $100,000
+  #medical_payments: $1,000 put back
+  uninsured_motorist_option: 'Coverage Declined'

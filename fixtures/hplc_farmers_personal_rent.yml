@@ -1,0 +1,16 @@
+auto_policy_level_coverages_modal:
+  coverage_a: '$5,000'
+  coverage_e_personal: '$100,000'
+  coverage_f_medical: '$500'
+  xxwind_hail_deductible: '$1,500'
+auto_policy_optional_coverages_modal:
+  farmers_personal_liability: true
+  farmers_personal_liability_type: 'Rented to Others'
+  farmers_total_acres: '20'
+  farmers_personal_liability_rented_street: '22322 Moeler Road'
+  farmers_personal_liability_rented_city: 'New Haven'
+  farmers_personal_liability_rented_state: 'Indiana'
+  farmers_personal_liability_rented_zip: '46774'
+
+
+

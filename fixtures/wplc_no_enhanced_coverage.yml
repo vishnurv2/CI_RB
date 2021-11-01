@@ -1,0 +1,5 @@
+auto_policy_level_coverages_modal:
+  watercraft_personal_liability: true
+  wpl_coverage_x: '$200,000'
+  watercraft_medical_payments: true
+  wmp_coverage_y: '$2,000'

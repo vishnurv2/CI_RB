@@ -1,0 +1,16 @@
+included_parties_panel:
+  role: Lessor
+  name: Bob Lessor
+lessor_party_modal:
+  existing_party: Add New
+  name: Bob Lessor
+  lessor_role_info:
+    vehicle_selections:
+      - true
+    address_selection: 1
+    address:
+      address_detail_type: Description
+      description: 12345 lessor road
+      city: Gary
+      state: Indiana
+      zip_code: 46404

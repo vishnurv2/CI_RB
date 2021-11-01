@@ -1,0 +1,27 @@
+add_product_modal:
+  personal_products:
+    automobile: false
+    residential: true
+    umbrella: false
+    scheduled_property: false
+    watercraft: false
+    dwelling: false
+  policy_effective_date: ~today
+  state: Indiana
+new_personal_account_modal:
+  select_agency: HUPE INSURANCE SERVICES (0-4218)
+  agency_contact: MATTHEW R HUPE
+  first_name: ~first_name
+  middle_name: 'M'
+  last_name: ~last_name
+  is_contact: 'Yes'
+  xxgender: Male
+  date_of_birth: ~full_adult_birth_date
+  xxmarital_status: Single
+  email: ~email_address
+  phone: ~phone_number
+  address_details:
+    address_line_1: '6801 Ford Ridge Rd'
+    city: 'Nashville'
+    state: 'Indiana'
+    zip_code: '47448'

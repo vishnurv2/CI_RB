@@ -1,0 +1,16 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("specific_account_info_additional_info.yml") %>
+<%= include_yml("default_auto_general_info_same_date.yml") %>
+<%= include_yml("aplc_none_combined_none.yml") %>
+<%= include_yml("2016_cadillac_escalade_full_vin.yml") %>
+<%= include_yml("generic_fake_driver_self_relation.yml") %>
+auto_vehicle_coverages_modal:
+  Collision: '$500'
+  Other Than Collision: '$500'
+  Corporate Auto Coverage: true
+issues_to_resolve:
+  emails: ~email_address
+  occupation: Artist
+  occupation_title: The Big Cheese
+  employer: Pizza Hutt

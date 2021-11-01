@@ -1,0 +1,9 @@
+---
+transportation_network_coverage:
+  company: 'Fasten'
+  hours_per_week: '24'
+  driver: 1
+electronic_equipment:
+  total_limit: '$4,000'
+extended_transportation:
+  total_limit: '$30 Per Day/$900 Maximum'

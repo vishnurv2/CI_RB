@@ -1,0 +1,134 @@
+exposures_insured_with_another_carrier_modal:
+  automobile: 1
+  automobile_limited_use: 1
+  company_car: 1
+  camper_motorhome: 1
+  street_motorcycle: 1
+  less_than_250cc: 1
+  more_than_250cc: 1
+  atv_3_wheel: 1
+  atv_4_wheel: 1
+  snowmobile: 1
+  golf_cart: 1
+  moped_scooter: 1
+  dune_buggy: 1
+
+exposures_insured_with_another_carrier_container_modal:
+  modals:
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1GY&3AKJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587365825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1G4GB5EG&A'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587365825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1GY&3AKJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587365825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1GY&3UKJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587775825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1GY&4AKJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587265825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1GY&6AKJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587315825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1GY&3ALJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587362825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1GY&9AKJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587765825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1GY&3IKJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587355825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1GY&3TKJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2589365825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella_input: 'Acura'
+      model_umbrella_input: '3.2TL'
+      vehicle_identification_number: '1GY&3AGJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587335825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1GY&3WKJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587367825'
+      effective_date: ~today
+    - vin_model_year: '2003'
+      make_umbrella: 1
+      model_umbrella: 1
+      vehicle_identification_number: '1GY&3ASJ&G'
+      split_combined_single_limit: 'Split Limits'
+      limit: '$250,000/$500,000/$100,000'
+      carrier: 'ACE'
+      policy_number: '2587395825'
+      effective_date: ~today

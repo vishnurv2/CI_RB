@@ -1,0 +1,10 @@
+hull_and_motor_information_modal:
+  hull: Bass boat
+  year: 2021
+  make: Chaparral
+  model: 287 SSX
+  length: 28
+  serial_number: '1234556'
+  registration_number: '1234567'
+  physical_damage_limit: 1000
+  has_motor: 'no'

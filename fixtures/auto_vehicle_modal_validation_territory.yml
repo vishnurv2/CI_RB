@@ -1,0 +1,12 @@
+---
+auto_vehicle_modal:
+  type_of_vehicle: Private Passenger
+  identification_type: 'Year/Make/Model'
+  vehicle_year: ~this_year
+  vehicle_make: 1
+  vehicle_model: 1
+  vehicle_style: 1
+  vehicle_use: Business
+  address_select: 1
+  territory: --Select--
+  performacne: standard

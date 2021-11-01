@@ -1,0 +1,12 @@
+other_vehicle_modal:
+  type_of_vehicle: Trailers
+  vehicle_year: 2016
+  vehicle_make: Adventurer
+  vehicle_model: Adventurer
+  vehicle_identification_number: '1234567890'
+  vehicle_value: '12345'
+  territory: 043 (100%)
+vehicle_information_panel:
+  vehicle_year: '2016'
+  vehicle_make: Adventurer
+  vehicle_model: Adventurer

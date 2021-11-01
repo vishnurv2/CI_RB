@@ -1,0 +1,16 @@
+auto_vehicle_modal:
+  vehicle_identification_number: '1G2JC14H2N7594384'
+  vehicle_use: Business
+  agreed_value: 'No'
+  purchase_date: ~today
+  annual_miles: '100'
+  xxblack_book_year: '1992'
+  xxblack_book_make: PONTIAC
+  xxblack_book_model: SUNBIRD
+  xxanti_theft_device: 'No Anti-Theft Device'
+  anti_theft_device: 1
+vehicle_information_panel:
+  vehicle_year: '1992'
+  vehicle_make: PONTIAC
+  vehicle_model: SUNBIRD
+  vehicle_vin: '1G2JC14H2N7594384'

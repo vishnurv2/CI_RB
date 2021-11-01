@@ -1,0 +1,13 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_watercraft_account_info.yml") %>
+<%= include_yml("default_watercraft_general_info.yml") %>
+<%= include_yml("wplc_no_enhanced_coverage.yml") %>
+<%= include_yml("generic_hull_and_motor_information.yml") %>
+auto_policy_optional_coverages_modal:
+  emergency_service_expanded_coverage: true
+  wes_total_limit: $500
+  personal_effects: true
+  wpe_total_limit: '$1,000'
+  boating_equipment_coverage_increase: true
+  wbe_total_limit: '$2,501'

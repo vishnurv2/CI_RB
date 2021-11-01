@@ -1,0 +1,8 @@
+other_vehicle_modal:
+  type_of_vehicle: All terrain vehicle
+  vehicle_year: 2003
+  vehicle_make: Honda
+  vehicle_model: TRX400EX Sportrax 400EX
+  vehicle_identification_number: '1234567890'
+  vehicle_value: '12345'
+  territory: 043 (100%)

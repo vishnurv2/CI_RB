@@ -1,0 +1,12 @@
+billing_account_add_product_modal:
+  payor: Add New
+  new_first_name: Bruce
+  new_last_name: Banner
+#  bill_plan: annual
+  payment_method: manual
+  e_billing: true
+  billing_email: Add New
+  new_billing_email: ~email_address
+expected_grid_data:
+  bill_plan: Annual
+  payment_method: Other Payment

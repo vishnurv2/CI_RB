@@ -1,0 +1,31 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("existing_angular_account_2.yml") %>
+applicant:
+  #existing_party: Add Party
+  first_name: ~first_name
+  middle_name: ~first_name
+  last_name: ~last_name
+  name_prefix: ~name_prefix
+  name_suffix: ~name_suffix
+  #is_contact: 'Yes'
+  select_gender: 'Male'
+  nickname: ~user_name
+  date_of_birth: ~full_adult_birth_date
+  marital_status: Married
+  emails:
+    - ~email_address
+    - ~email_address
+  phone_numbers:
+    - number: ~phone_number
+      type: Home
+    - number: ~phone_number
+      type: Mobile
+  address_details_no_scrub:
+    address_line_1: 800 Washington
+    city: Van Wert
+    state: Ohio
+    county: Van Wert
+    zip_code: '45890'
+    correct_address_line_1: 800 N WASHINGTON ST
+    correct_zip_code: '45891'

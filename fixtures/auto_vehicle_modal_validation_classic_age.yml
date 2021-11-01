@@ -1,0 +1,5 @@
+---
+auto_vehicle_modal:
+  type_of_vehicle: Classic
+  identification_type: 'Year/Make/Model'
+  vehicle_year: ~this_year

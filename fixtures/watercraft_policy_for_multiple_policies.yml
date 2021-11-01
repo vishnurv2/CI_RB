@@ -1,0 +1,17 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_watercraft_account_info.yml") %>
+<%= include_yml("default_watercraft_general_info.yml") %>
+<%= include_yml("wplc_enhanced_coverage.yml") %>
+<%= include_yml("generic_hull_and_motor_information.yml") %>
+auto_policy_optional_coverages_modal:
+  boating_equipment_coverage_increase: true
+  wbe_total_limit: '$2,501'
+watercraft_operator_modal:
+  existing_party: 1
+  gender: 'Male'
+  marital_status: 'Single'
+  license_state: 'Indiana'
+  license_number: '1160137783'
+  years_of_boating_experience: 1
+  safety_course: 'No'

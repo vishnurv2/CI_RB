@@ -1,0 +1,26 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("accidents_violations_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+<%= include_yml("aplc_autoplus_combined_none.yml") %>
+auto_prefill_modal:
+  vehicle_selections:
+    - true
+    - false
+    - false
+    - false
+    - false
+    - false
+  driver_selections:
+    - false
+    - true
+auto_vehicle_modal:
+  vehicle_use: Business
+  performance: Standard
+auto_driver_modal:
+  marital_status: Single
+  relationship_to_applicant: Spouse
+  gender: Male
+auto_driver_assignment_modal:
+  drivers:
+    - - 0

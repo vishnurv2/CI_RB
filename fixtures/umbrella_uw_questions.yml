@@ -1,0 +1,5 @@
+uw_question_panel:
+  date_of_loss: ~today
+  type_of_loss: 'Lightning'
+  loss_amount: '1200'
+  description: 'testing purpose'

@@ -1,0 +1,15 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+<%= include_yml("aplc_none_combined_none.yml") %>
+<%= include_yml("motorhome.yml") %>
+<%= include_yml("generic_fake_driver.yml") %>
+auto_vehicle_coverages_modal:
+  Collision: '$500'
+  Other Than Collision: '$500'
+  Corporate Auto Coverage: true
+manual_coverage:
+  description: this is the description
+  premium: '100.00'
+

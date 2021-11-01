@@ -1,0 +1,10 @@
+auto_policy_level_coverages_modal:
+  umbrella_enhanced_coverage: true
+  umbrella_uninsured_underinsured: true
+  total_limit_liability: '$2,000,000'
+  total_limit: '$2,000,000'
+  address_residence_premise: 1
+
+
+
+

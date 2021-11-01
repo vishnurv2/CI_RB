@@ -1,0 +1,30 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_scheduled_property_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+scheduled_property_policy_level_coverages_modal:
+  construction_location: 'Frame'
+  family_numbers: 2
+  smoke_detectors_on_all_floors: true
+scheduled_property_classes_modal:
+  ground_maintenance_vehicles: true
+  amount_of_insurance: '200'
+  deductible_vehicles: '$250'
+  category: 'Vehicle'
+  vin_first: '54546565'
+  year_first: '2012'
+  make_first: 'DUST'
+  model_first: 'THOR'
+  item_insurance_amount_first: '$500'
+category_trailer:
+  category_second: 'Trailer'
+  vin_second: '54546735'
+  year_second: '2012'
+  make_second: 'DUSTER'
+  model_second: 'HORN'
+  item_insurance_amount_second: '$120'
+category_equipment:
+  category_third: 'Equipment'
+  item_name: 'Dollar'
+  item_description: 'Unique SPP'
+  item_insurance_amount_third: '$100'

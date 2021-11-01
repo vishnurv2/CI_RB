@@ -1,0 +1,5 @@
+auto_vehicle_modal:
+  vin_get_info: '12345678901234567'
+  black_book_series: Base
+  black_book_style: 4D SUV 4WD
+  value_type: original cost

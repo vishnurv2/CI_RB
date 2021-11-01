@@ -1,0 +1,9 @@
+other_vehicle_modal:
+  type_of_vehicle: Snowmobile
+  vehicle_year: 1999
+  vehicle_make: Arctic Cat
+  vehicle_model: Kitty Cat
+  vehicle_identification_number: '1234567890'
+  vehicle_value_type: 'Other Value'
+  vehicle_value: '12345'
+  territory: 275 (100%)

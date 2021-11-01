@@ -1,0 +1,29 @@
+add_product_modal:
+  personal_products:
+    automobile: true
+    residential_locations: false
+    umbrella: false
+    scheduled_property: false
+    watercraft: false
+    dwelling: false
+  policy_effective_date: ~today
+  state: Indiana
+new_personal_account_modal:
+  select_agency: JONES RAPHAEL AND OULUNDSEN INC(4-JB01)
+  agency_contact: RICHARD OULUNDSEN
+  first_name: ~first_name
+  last_name: ~last_name
+  name_prefix: ~name_prefix
+  name_suffix: ~name_suffix
+  xxgender: Male
+  nickname: ~user_name
+  date_of_birth: ~full_adult_birth_date
+  phone_numbers:
+      - number: ~phone_number
+        type: Mobile
+  address_details:
+    address_line_1: ~street_address
+    city: Gary
+    state: Indiana
+    zip_code: 46401
+    county: Lake

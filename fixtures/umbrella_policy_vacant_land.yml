@@ -1,0 +1,20 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_umbrella_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+<%= include_yml("uplc_enhanced_coverage.yml") %>
+<%= include_yml("2016_cadillac_escalade_full_vin.yml") %>
+<%= include_yml("generic_fake_driver.yml") %>
+exposures_insured_modal:
+  add_land: 'true'
+vacant_address_details:
+  panels:
+    - address_line_1: '3715 KIRKLYNN DR'
+      city: 'NEW HAVEN'
+      state: 'Indiana'
+      zip_code: '46774'
+      county: 'Allen'
+    - address_line_1: '6801 Ford Ridge Rd'
+      city: 'Nashville'
+      state: 'Indiana'
+      zip_code: '47448'

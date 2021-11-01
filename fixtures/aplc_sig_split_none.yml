@@ -1,0 +1,14 @@
+auto_policy_level_coverages_modal:
+  enhanced_coverage: Signature
+  split_combined_single_limit: Split Limits
+  uninsured_underinsured_coverage: false
+  decline_medical_coverage: false
+  medical_payments: $100,000
+  bodily_injury_liability: $500,000 / $500,000
+  property_damage_liability: $500,000
+expected_auto_policy_level_coverages:
+  #bodily_injury_liability: $500,000 / $500,000 put all back
+  #medical_payments: $100,000
+  uninsured_motorist_option: 'Coverage Declined'
+  #property_damage_liability: $500,000
+  enhanced_coverage: 'Signature'

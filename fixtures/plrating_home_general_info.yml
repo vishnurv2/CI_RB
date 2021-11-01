@@ -1,0 +1,13 @@
+home_gen_info:
+  credit_check: 'Yes'
+  prior_insurance: 'No Prior-Carrier - Home/PELP'
+ # industry: 'Accountant'
+
+gender_info:
+  gender: 'Male'
+
+industry_info:
+  industry: 1
+  #occupation: "Bookkeeper"
+
+

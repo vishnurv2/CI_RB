@@ -1,0 +1,9 @@
+add_product_modal:
+  personal_products:
+    automobile: false
+    residential: false
+    umbrella: false
+    scheduled_property: false
+    watercraft: true
+    dwelling: false
+  attach_product: true

@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Activity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DocumakerInfo>
+    <Key1>Central</Key1>
+    <Key2>PL FORMS</Key2>
+    <KeyId>6675660325000</KeyId>
+    <ApiKey1>6675659030</ApiKey1>
+    <TransactionCode>PO</TransactionCode>
+    <RunDate>20210408</RunDate>
+    <FormsToPrint>
+      <FormName>PP0001 0918</FormName>
+      <FormName>PP0166 0717</FormName>
+      <FormName>PP0307 0105</FormName>
+      <FormName>PP0326 0694</FormName>
+      <FormName>PP1301 1299</FormName>
+      <FormName>PP1306 0109</FormName>
+      <FormName>PP2316 1013</FormName>
+      <FormName>PP2340 1015</FormName>
+      <FormName>20-14560986</FormName>
+      <FormName>20-17460305</FormName>
+      <FormName>20-21540110</FormName>
+      <FormName>20-21990111</FormName>
+      <FormName>2-7049 0392</FormName>
+      <FormName>3-2187 0500</FormName>
+      <FormName>3-2394 0807</FormName>
+      <FormName>3-2501</FormName>
+      <FormName>3-2645 0413</FormName>
+      <FormName>4-1327</FormName>
+    </FormsToPrint>
+    <BannerPage>10</BannerPage>
+    <Feeders>
+      <Feeder1>1</Feeder1>
+      <Feeder2/>
+      <Feeder3/>
+      <Feeder4/>
+      <Feeder5/>
+      <Feeder6/>
+    </Feeders>
+    <Barcode2D>                    1000     </Barcode2D>
+  </DocumakerInfo>
+  <AddresseeInfo>
+    <City>NEW HAVEN</City>
+    <State>IN</State>
+    <ZipCode>46774</ZipCode>
+    <ZipPlus4>1947</ZipPlus4>
+    <Role>Insured</Role>
+    <Distmethods>Batch</Distmethods>
+    <Distribution>Batch</Distribution>
+    <NameAddress1>Bruce M Henryghmsi</NameAddress1>
+    <NameAddress2>3715 KIRKLYNN DR</NameAddress2>
+    <NameAddress3>NEW HAVEN, IN 46774-1947</NameAddress3>
+    <DeliveryPoint>15</DeliveryPoint>
+  </AddresseeInfo>
+  <AgencyInfo>
+    <BlueStreakIndicator>B</BlueStreakIndicator>
+    <NameAddresses>
+      <NameAddress>HUPE INSURANCE SERVICES</NameAddress>
+      <NameAddress>PO BOX 15249</NameAddress>
+      <NameAddress>FORT WAYNE, IN 46885-5249</NameAddress>
+    </NameAddresses>
+    <PhoneNumber>2604867488</PhoneNumber>
+    <EmailAddress>rhupe@hupe-insurance.com</EmailAddress>
+    <WebSite>www.hupe-insurance.com</WebSite>
+    <Name>HUPE INSURANCE SERVICES</Name>
+    <FullAddress>PO BOX 15249\nFORT WAYNE, IN 46885-5249</FullAddress>
+    <Address1>PO BOX 15249</Address1>
+    <Address2>FORT WAYNE, IN 46885-5249</Address2>
+    <NameAddress1>HUPE INSURANCE SERVICES</NameAddress1>
+    <NameAddress2>PO BOX 15249</NameAddress2>
+    <NameAddress3>FORT WAYNE, IN 46885-5249</NameAddress3>
+    <City>FORT WAYNE</City>
+    <State>IN</State>
+    <ZipCode>46885</ZipCode>
+    <ZipPlus4>5249</ZipPlus4>
+    <AgentSortName>HUPE</AgentSortName>
+    <Region>0</Region>
+    <AgentCode>4218</AgentCode>
+    <RegionCodeAgentCode>04218</RegionCodeAgentCode>
+    <MailToAgentCode>4218</MailToAgentCode>
+    <ProducerInfo>
+      <LicenseNumbers>
+        <LicenseNumber>
+          <Number>2854680</Number>
+          <Type>License</Type>
+        </LicenseNumber>
+        <LicenseNumber>
+          <Number>3309694</Number>
+          <Type>National Num</Type>
+        </LicenseNumber>
+      </LicenseNumbers>
+      <Name>MATTHEW R HUPE</Name>
+    </ProducerInfo>
+  </AgencyInfo>
+  <CompanyName>
+    <CompanyName32>Central Mutual Insurance</CompanyName32>
+  </CompanyName>
+  <InsuredInformation>
+    <Address1>3715 KIRKLYNN DR</Address1>
+    <Address4>NEW HAVEN, IN 46774-1947</Address4>
+    <City>NEW HAVEN</City>
+    <State>IN</State>
+    <ZipCode>46774</ZipCode>
+    <ZipPlus4>1947</ZipPlus4>
+    <InsuredSortName>HENR</InsuredSortName>
+    <NameAddress1>BRUCE M HENRYGHMSI</NameAddress1>
+    <NameAddress2>3715 KIRKLYNN DR</NameAddress2>
+    <NameAddress3>NEW HAVEN, IN 46774-1947</NameAddress3>
+    <NameAddresses>
+      <NameAddress>BRUCE M HENRYGHMSI</NameAddress>
+      <NameAddress>3715 KIRKLYNN DR</NameAddress>
+      <NameAddress>NEW HAVEN, IN 46774-1947</NameAddress>
+    </NameAddresses>
+  </InsuredInformation>
+  <PLDecs>
+    <ReasonForDec>
+      <Reason>REFER TO REASON(S) FOR TRANSACTION SECTION</Reason>
+    </ReasonForDec>
+    <ReasonsForTransaction>
+      <Reason>New business issued</Reason>
+    </ReasonsForTransaction>
+    <Premiums>
+      <TotalAnnualPremium>$2,938.00</TotalAnnualPremium>
+    </Premiums>
+    <IndentedDiscounts>
+      <Discount>
+        <Indent>0</Indent>
+        <DiscountName>ANTI-THEFT</DiscountName>
+        <AdditionalInfo>Vehicle: 001</AdditionalInfo>
+      </Discount>
+      <Discount>
+        <Indent>0</Indent>
+        <DiscountName>PASSIVE RESTRAINT</DiscountName>
+        <AdditionalInfo>Vehicle: 001</AdditionalInfo>
+      </Discount>
+    </IndentedDiscounts>
+  </PLDecs>
+  <PLPolicy xsi:type="PLAutoPolicy">
+    <FormsAttachedToPolicy>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>PP0001</Name>
+        <Date>09/18</Date>
+        <Description>PERSONAL AUTO POLICY PROVISIONS</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>PP0166</Name>
+        <Date>07/17</Date>
+        <Description>IN-AMENDMENT OF POLICY PROVISIONS</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>PP0307</Name>
+        <Date>01/05</Date>
+        <Description>TRAILER/CAMPER BODY COVERAGE (MAXIMUM LIMIT OF LIABILITY)</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>PP0326</Name>
+        <Date>06/94</Date>
+        <Description>EXCLUSION-LIABILITY COVERAGE EXCLUSION ENDORSEMENT</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>PP1301</Name>
+        <Date>12/99</Date>
+        <Description>EXCL-COVERAGE FOR DAMAGE TO YOUR AUTO ENDORSEMENT</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>PP1306</Name>
+        <Date>01/09</Date>
+        <Description>CUSTOM EQUIPMENT EXCLUSION ENDORSEMENT</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>PP2316</Name>
+        <Date>10/13</Date>
+        <Description>PERSONAL VEHICLE SHARING PROGRAM EXCLUSION ENDORSEMENT</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>PP2340</Name>
+        <Date>10/15</Date>
+        <Description>PUBLIC OR LIVERY CONVEYANCE EXCLUSION ENDORSEMENT</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>2-7049</Name>
+        <Date>03/92</Date>
+        <Description>HOMEOWNERS - AUTOMOBILE DEDUCTIBLE WAIVER MAILER</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>20-1456</Name>
+        <Date>09/86</Date>
+        <Description>HOMEOWNERS-AUTO DEDUCTIBLE WAIVER ENDORSEMENT</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>20-1746</Name>
+        <Date>03/05</Date>
+        <Description>IN-NOTICE TO POLICYHOLDERS-FILING OF COMPLAINTS W/INSURANCE DEPT</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>20-2199</Name>
+        <Date>01/11</Date>
+        <Description>FAIR CREDIT REPORTING POLICYHOLDER NOTICE-CENTRALS PATHWAY AUTO</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>3-2394</Name>
+        <Date>08/07</Date>
+        <Description>MISCELLANEOUS TYPE VEHICLE AMENDATORY ENDORSEMENT</Description>
+      </Form>
+      <Form>
+        <Indicator>*</Indicator>
+        <Name>3-2645</Name>
+        <Date>04/13</Date>
+        <Description>CENTRAL MUTUAL SUMMIT AUTO ENDORSEMENT</Description>
+      </Form>
+    </FormsAttachedToPolicy>
+    <Coverages>
+      <TotalPremiums>
+        <TotalAdditionalPremiums>$70.00</TotalAdditionalPremiums>
+        <TotalPremium>$2,938.00</TotalPremium>
+        <Vehicle1>$2,868.00</Vehicle1>
+      </TotalPremiums>
+      <TotalPremium>$2,938.00</TotalPremium>
+      <VehicleCoverageGroup>
+        <SubCoverageGroup>
+          <IndentedDescriptions>
+            <Description>
+              <Indent>1</Indent>
+              <Line>LIABILITY LIMITS</Line>
+              <Indicator>A.</Indicator>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>BODILY INJURY LIABILITY</Line>
+              <Indicator>1.</Indicator>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>$100,000 EACH PERSON</Line>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>$300,000 EACH ACCIDENT</Line>
+            </Description>
+          </IndentedDescriptions>
+          <Premiums>
+            <Vehicle1>$474.00</Vehicle1>
+          </Premiums>
+        </SubCoverageGroup>
+      </VehicleCoverageGroup>
+      <VehicleCoverageGroup>
+        <SubCoverageGroup>
+          <IndentedDescriptions>
+            <Description>
+              <Indent>2</Indent>
+              <Line>PROPERTY DAMAGE</Line>
+              <Indicator>2.</Indicator>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>$25,000 EACH ACCIDENT</Line>
+            </Description>
+          </IndentedDescriptions>
+          <Premiums>
+            <Vehicle1>$381.00</Vehicle1>
+          </Premiums>
+        </SubCoverageGroup>
+      </VehicleCoverageGroup>
+      <VehicleCoverageGroup>
+        <SubCoverageGroup>
+          <IndentedDescriptions>
+            <Description>
+              <Indent>1</Indent>
+              <Line>MEDICAL PAYMENTS</Line>
+              <Indicator>B.</Indicator>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>$10,000 EACH PERSON</Line>
+            </Description>
+          </IndentedDescriptions>
+          <Premiums>
+            <Vehicle1>$90.00</Vehicle1>
+          </Premiums>
+        </SubCoverageGroup>
+      </VehicleCoverageGroup>
+      <VehicleCoverageGroup>
+        <SubCoverageGroup>
+          <IndentedDescriptions>
+            <Description>
+              <Indent>1</Indent>
+              <Line>UNINSURED / UNDERINSURED</Line>
+              <Indicator>C.</Indicator>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>MOTORISTS</Line>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>BODILY INJURY</Line>
+              <Indicator>1.</Indicator>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>$100,000 EACH PERSON</Line>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>$300,000 EACH ACCIDENT</Line>
+            </Description>
+          </IndentedDescriptions>
+          <Premiums>
+            <Vehicle1>$32.00</Vehicle1>
+          </Premiums>
+        </SubCoverageGroup>
+      </VehicleCoverageGroup>
+      <VehicleCoverageGroup>
+        <SubCoverageGroup>
+          <IndentedDescriptions>
+            <Description>
+              <Indent>2</Indent>
+              <Line>UNINSURED MOTORIST</Line>
+              <Indicator>2.</Indicator>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>PROPERTY DAMAGE</Line>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>$25,000 EACH ACCIDENT</Line>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>NO DEDUCTIBLE APPLIES</Line>
+            </Description>
+          </IndentedDescriptions>
+          <Premiums>
+            <Vehicle1>$9.00</Vehicle1>
+          </Premiums>
+        </SubCoverageGroup>
+      </VehicleCoverageGroup>
+      <VehicleCoverageGroup>
+        <SubCoverageGroup>
+          <IndentedDescriptions>
+            <Description>
+              <Indent>1</Indent>
+              <Line>DAMAGE TO YOUR AUTO</Line>
+              <Indicator>D.</Indicator>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>OTHER THAN COLLISION LOSS</Line>
+              <Indicator>1.</Indicator>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>ACTUAL CASH VALUE LESS ACTUAL CASH VALUE LESS $250</Line>
+            </Description>
+          </IndentedDescriptions>
+          <Premiums>
+            <Vehicle1>$660.00</Vehicle1>
+          </Premiums>
+        </SubCoverageGroup>
+      </VehicleCoverageGroup>
+      <VehicleCoverageGroup>
+        <SubCoverageGroup>
+          <IndentedDescriptions>
+            <Description>
+              <Indent>2</Indent>
+              <Line>COLLISION LOSS</Line>
+              <Indicator>2.</Indicator>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>ACTUAL CASH VALUE LESS ACTUAL CASH VALUE LESS $500</Line>
+            </Description>
+          </IndentedDescriptions>
+          <Premiums>
+            <Vehicle1>$1,172.00</Vehicle1>
+          </Premiums>
+        </SubCoverageGroup>
+      </VehicleCoverageGroup>
+      <VehicleCoverageGroup>
+        <SubCoverageGroup>
+          <IndentedDescriptions>
+            <Description>
+              <Indent>2</Indent>
+              <Line>AGREED VALUE</Line>
+              <Indicator>3.</Indicator>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>LESS APPLICABLE DEDUCTIBLE</Line>
+            </Description>
+          </IndentedDescriptions>
+          <Premiums>
+            <Vehicle1>$50.00</Vehicle1>
+          </Premiums>
+        </SubCoverageGroup>
+      </VehicleCoverageGroup>
+      <PolicyCoverageGroup>
+        <SubCoverageGroup>
+          <IndentedDescriptions>
+            <Description>
+              <Indent>0</Indent>
+              <Line>SUMMIT AUTO ENDORSEMENT - INCLUDES THE FOLLOWING:</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>PARKED AUTO COLLISION COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>TOWING &amp; LABOR COSTS COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>TRANSPORTATION EXPENSES COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>PERSONAL EFFECTS COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>AUTO DEATH BENEFIT COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>RENTAL CAR LOSS OF USE COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>AIR BAG REPLACEMENT </Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>AUTO LOAN/LEASE GAP COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>REPAIR OR REPLACEMENT COST COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>LOCK REPLACEMENT COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>LOCKOUT COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>FIRE, POLICE, RESCUE SQUAD CHARGE COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>PET INJURY COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>CHILD SAFETY SEAT COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>WAIVER OF DEDUCTIBLE FOR CERTAIN LOSSES</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>DOUBLED MEDICAL PAYMENTS COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>1</Indent>
+              <Line>PORTABLE ELECTRONIC EQUIPMENT COVERAGE</Line>
+            </Description>
+            <Description>
+              <Indent>2</Indent>
+              <Line>For specific coverage details see endorsement.</Line>
+            </Description>
+          </IndentedDescriptions>
+          <Premiums>
+            <Policy>$70.00</Policy>
+          </Premiums>
+        </SubCoverageGroup>
+      </PolicyCoverageGroup>
+    </Coverages>
+    <Drivers>
+      <Driver>
+        <BirthDate xmlns="PLAutoPolicy">19740408</BirthDate>
+        <Name xmlns="PLAutoPolicy">BEN JEAN SUMMERSVVROV</Name>
+        <LicenseNumber xmlns="PLAutoPolicy">1160137783</LicenseNumber>
+        <Number xmlns="PLAutoPolicy">001</Number>
+      </Driver>
+    </Drivers>
+    <Vehicles>
+      <VehicleData>
+        <VehicleNumber>1</VehicleNumber>
+        <UnitNumber>001</UnitNumber>
+        <State>IN</State>
+        <Territory>043</Territory>
+        <Year>2016</Year>
+        <Make>CADI ESCALADE</Make>
+        <Vin>1GYS3DKJXGR264503</Vin>
+        <Symbol>0000005444</Symbol>
+        <Class>A15807</Class>
+      </VehicleData>
+    </Vehicles>
+    <AutoIdCards>
+      <AgentBlueStreakMessage>A BLUE STREAK AGENT</AgentBlueStreakMessage>
+      <Card>
+        <Vehicle>
+          <VehicleNumber>1</VehicleNumber>
+          <Year>2016</Year>
+          <Make>CADI ESCALADE</Make>
+          <Vin>1GYS3DKJXGR264503</Vin>
+        </Vehicle>
+      </Card>
+      <EffectiveDate>20201030</EffectiveDate>
+      <Drivers/>
+    </AutoIdCards>
+    <VehicleMessages>
+      <Message>
+        <Indicators>001</Indicators>
+        <Lines>
+          <Line>1GYS3DKJXGR264503 Above identification number is incorrect as given</Line>
+          <Line>Agreed value $23,681.00</Line>
+        </Lines>
+      </Message>
+    </VehicleMessages>
+    <DriverMessages/>
+  </PLPolicy>
+  <PolicyInformation>
+    <PolicySymbol>FMA</PolicySymbol>
+    <PolicyNumber>8174041</PolicyNumber>
+    <PolicySuffix>00</PolicySuffix>
+    <LOB>PersonalAuto</LOB>
+    <LineOfBusiness>PersonalAuto</LineOfBusiness>
+    <RiskState>13</RiskState>
+    <AlphaRiskState>IN</AlphaRiskState>
+    <OnDemandIndex>NoOnDemandArchive</OnDemandIndex>
+    <EffectiveDate>20201030</EffectiveDate>
+    <ExpirationDate>20211030</ExpirationDate>
+    <ChangeEffectiveDate>20201030</ChangeEffectiveDate>
+    <CancelDate>20201030</CancelDate>
+    <CancelTime>12:00 AM</CancelTime>
+  </PolicyInformation>
+</Activity>

@@ -1,0 +1,7 @@
+---
+<%= include_yml("manual_coverage.yml") %>
+<%= include_yml("agent_creds.yml") %>
+existing_account:
+  id: 6624857551
+existing_auto_policy:
+  id: 6624857570

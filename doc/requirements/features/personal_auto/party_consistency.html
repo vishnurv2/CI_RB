@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Feature: Party Consistency
+  
+    &mdash; Documentation by YARD 0.9.18
+  
+</title>
+
+  <link rel="stylesheet" href="../../../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../../../css/common.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../../../css/cucumber.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "requirements::features::personal_auto::party_consistency";
+  relpath = '../../../';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/app.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/cucumber.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="../../../feature_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="../../../_index.html">Index (p)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../../../requirements.html" title="requirements (requirements)">requirements</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../../features.html" title="requirements::features (featuredirectory)">features</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../personal_auto.html" title="requirements::features::personal_auto (featuredirectory)">personal_auto</a></span></span>
+     &raquo; 
+    <span class="title">party_consistency</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="feature_list_link"
+        href="../../../feature_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><script type="text/javascript" charset="utf-8">
+$(function() {
+  $(".developer").hide();
+  $(".scenario .title").css('cursor','pointer');
+});
+</script>
+
+<div class="feature">
+  <div class="title">
+    <a id="view" class="control" href="#">[More Detail]</a>
+    <a id="expand" class="control" href="#">[Collapse All]</a>
+    <div style="clear: right;"></div>
+    <span class="pre">Feature:</span>
+    <span class="name">Party Consistency</span>
+  </div>
+
+  
+
+  <div class="description">
+    
+  </div>
+
+  <div class="meta">
+    <div class="file developer">features/personal_auto/party_consistency.feature</div>
+    <div style="clear: right;"></div>
+    <div class="tags developer">
+      
+      <a href="../../tags/indiana_auto.html">@indiana_auto</a>
+      
+      <a href="../../tags/personal_auto.html">@personal_auto</a>
+      
+    </div>
+  </div>
+
+  
+</div>
+
+<div class="scenario scenario_0">
+  <a name="scenario_0" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario:</span>
+      <span class="name">Drivers Added on the Second Policy Appear as Applicants</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_0">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/party_consistency.feature:5</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/regression.html">@regression</a>
+          
+            <a href="../../tags/fixture_driver_consistency.html">@fixture_driver_consistency</a>
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition121-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add an additional <span class='match'>Indiana</span> "<span class='match'>Automobile</span>" product
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition130-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I add a driver from the policy summary page using the data for "<span class='match'>additional driver</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition149-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Account Summary</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I start adding an applicant from the <span class='match'>account summary page</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition234-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          The driver from the data for "<span class='match'>additional_driver/auto_driver_modal</span>" should appear in the add applicant dropdown
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition103-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+<div class="scenario scenario_1">
+  <a name="scenario_1" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario:</span>
+      <span class="name">Drivers Added on a Policy Appear as Applicants on Different Policies</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_1">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/party_consistency.feature:14</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/fixture_driver_consistency.html">@fixture_driver_consistency</a>
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition121-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add an additional <span class='match'>Indiana</span> "<span class='match'>Automobile</span>" product
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition130-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I add a driver from the policy summary page using the data for "<span class='match'>additional driver</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition149-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>IN - Auto</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I start adding an applicant from the <span class='match'>auto policy summary page</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition234-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          The driver from the data for "<span class='match'>additional_driver/auto_driver_modal</span>" should appear in the add applicant dropdown
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition103-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+<div class="scenario scenario_2">
+  <a name="scenario_2" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario:</span>
+      <span class="name">Drivers Added on a Policy Appear as a Driver on a Different Policy</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_2">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/party_consistency.feature:23</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/regression.html">@regression</a>
+          
+            <a href="../../tags/fixture_driver_consistency.html">@fixture_driver_consistency</a>
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition121-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add an additional <span class='match'>Indiana</span> "<span class='match'>Automobile</span>" product
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition130-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I add a driver from the policy summary page using the data for "<span class='match'>additional driver</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition149-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>IN - Auto</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I start adding a driver on the policy summary page
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition34-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          The driver from the data for "<span class='match'>additional_driver/auto_driver_modal</span>" should appear in the add driver dropdown
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition35-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+<div class="scenario scenario_3">
+  <a name="scenario_3" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario:</span>
+      <span class="name">Applicants Added on a Policy Appear on a Different Policy</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_3">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/party_consistency.feature:32</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/regression.html">@regression</a>
+          
+            <a href="../../tags/fixture_applicant_consistency.html">@fixture_applicant_consistency</a>
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition121-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add an additional <span class='match'>Indiana</span> "<span class='match'>Automobile</span>" product
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition130-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I add another applicant from the <span class='match'>auto policy summary page</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition104-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>IN - Auto</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I start adding a driver on the policy summary page
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition34-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          The driver from the data for "<span class='match'>additional_applicant/add_applicant_modal</span>" should appear in the add driver dropdown
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition35-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+<div class="scenario scenario_4">
+  <a name="scenario_4" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario:</span>
+      <span class="name">Applicants Added on an Account Appear on a Policy</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_4">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/party_consistency.feature:41</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/fixture_applicant_consistency.html">@fixture_applicant_consistency</a>
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition121-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Account Summary</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I add another applicant from the <span class='match'>account summary page</span>
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition104-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>IN - Auto</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I start adding a driver on the policy summary page
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition34-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          The driver from the data for "<span class='match'>additional_applicant/add_applicant_modal</span>" should appear in the add driver dropdown
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition35-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+</div>
+
+      <div id="footer">
+  Generated on Tue Aug 27 14:13:03 2019 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.18 (ruby-2.5.5).
+</div>
+
+    </div>
+  </body>
+</html>

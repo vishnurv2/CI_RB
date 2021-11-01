@@ -1,0 +1,66 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_home_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+property_info_modal:
+  xxresidential_location_type: 'Homeowner'
+  form_type: '3 - Special'
+  prefill_property_info: true
+  year_built: '1959'
+  date_purchased: '07/16/2016'
+  under_construction: 'No'
+  premise_use: 'Primary'
+  number_of_families: '1'
+  number_of_stories: '2'
+  roof_type: 'Composition Shingles (Asphalt)'
+  roof_updates: 'Complete'
+  updated_roof_year: '2010'
+  structure_type: 'Townhouse'
+  construction_type: 'Frame w/Siding'
+  number_of_family_units: '1'
+  distance_from_water: 'Less than 1,000 Feet'
+  protection_class: '03'
+  primary_heat: 'Electric'
+  secondary_heat: 'Electric'
+auto_prefill_modal:
+  vehicle_selections:
+    - false
+    - false
+  driver_selections:
+    - false
+auto_policy_level_coverages_modal:
+  coverage_a: '$5000'
+  coverage_c: '$12000'
+  coverage_e_personal: '$100,000'
+  coverage_f_medical: '$500'
+  xxwind_hail_deductible: '$1,500'
+auto_policy_optional_coverages_modal:
+  business_pursuits: true
+  earthquake_loss_assessment: true
+  home_incidental_low_power_rec_vehicle: true
+  home_landlords_furnishings_coverage: true
+  home_loss_assessment_additional_locations: true
+  home_motorized_golf_cart: true
+  home_other_structures_insured_off_premise: true
+  home_other_structures_specifically_insured: true
+  other_structures_specifically_insured_on_premise: true
+  home_other_structures_exclusion_endorsement: true
+  home_personal_property_other_residence: true
+  home_snowmobile_coverage: true
+  name_of_business: 'Marvel'
+  type_of_business: Clerical Employee or Salesperson - Excluding installation, demonstration or servicing operation
+  earthquake_loss_assessment_total_limit: '$1,500'
+  home_landlords_furnishings_coverage_limit: '$3,500'
+  home_loss_assessment_additional_locations_limit: '$5,000'
+  home_motorized_golf_cart_limit: $2,000
+  home_other_structures_specifically_insured_limit: $2,500
+  total_limit_other_structures: $3,000
+  home_personal_property_other_residence_limit: $2,700
+  home_snowmobile_coverage_limit: $3,100
+  #  home_liability_extension: true
+  #  home_liability_extension_num_families: '1'
+  #  home_liability_extension_rented_to_others: true
+  #  home_liability_extension_rented_num_families: '1'
+
+
+

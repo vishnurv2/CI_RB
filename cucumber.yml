@@ -1,0 +1,154 @@
+default:  --tags 'not @debug' -p desktop
+
+chrome: BROWSER_BRAND=chrome
+ie: BROWSER_BRAND=ie
+edge: BROWSER_BRAND=edge
+firefox: BROWSER_BRAND=firefox
+
+grid: BROWSER_TYPE=lambda
+
+headless: HEADLESS=true -p chrome
+headless_grid: HEADLESS_GRID=true
+kb: KEEP_BROWSER=true
+debug: CUKE_DEBUG=true
+
+desktop: MOVE_BROWSER=true SIZE_BROWSER=true
+bootstrapxs: MOVE_BROWSER=true SIZE_BROWSER=true BROWSER_RESOLUTION="767x900"
+bootstrapsm: MOVE_BROWSER=true SIZE_BROWSER=true BROWSER_RESOLUTION="769x900"
+bootstrapmd: MOVE_BROWSER=true SIZE_BROWSER=true BROWSER_RESOLUTION="993x900"
+bootstraplg: MOVE_BROWSER=true SIZE_BROWSER=true BROWSER_RESOLUTION="1200x900"
+
+dev: TEST_ENV=dev -p default
+test: TEST_ENV=test -p default -p desktop
+uat: TEST_ENV=uat -p default -p desktop
+DEVL: TEST_ENV=dev -p default
+TEST: TEST_ENV=test -p default -p desktop
+UAT: TEST_ENV=uat -p default -p desktop
+
+local: TEST_ENV=local -p default -p desktop
+local_html: TEST_ENV=local -p default -p desktop -f html -o reports/results.html
+ci_env: TEST_ENV=ci -p default -p desktop
+ci_test: -p default -p desktop --tags '@ci'
+ci_dev: TEST_ENV=dev -p default -p desktop --tags '@ci'
+
+sanity_DEVL: TEST_ENV=dev -p default -p desktop --tags '@ci'
+sanity_TEST: TEST_ENV=test -p default -p desktop --tags '@ci'
+sanity_UAT: TEST_ENV=uat -p default -p desktop --tags '@ci'
+
+AccountApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@account_api'
+AccountApi_TEST: TEST_ENV=test -p default -p desktop --tags '@account_api'
+AccountApiCore_DEVL: TEST_ENV=dev -p default -p desktop --tags '@account_api'
+AccountApiCore_TEST: TEST_ENV=test -p default -p desktop --tags '@account_api'
+AddressScrubbingApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@address_api'
+AddressScrubbingApi_TEST: TEST_ENV=test -p default -p desktop --tags '@address_api'
+AgencyApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@agency_api'
+AgencyApi_TEST: TEST_ENV=test -p default -p desktop --tags '@agency_api'
+AuthorizationServer_DEVL: TEST_ENV=dev -p default -p desktop --tags '@auth_api'
+AuthorizationServer_TEST: TEST_ENV=test -p default -p desktop --tags '@auth_api'
+BlackBookApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@blackbook_api'
+BlackBookApi_TEST: TEST_ENV=test -p default -p desktop --tags '@blackbook_api'
+ClaimsCoverageVerificationApiCore_DEVL: TEST_ENV=dev -p default -p desktop --tags '@claims_api'
+ClaimsCoverageVerificationApiCore_TEST: TEST_ENV=test -p default -p desktop --tags '@claims_api'
+ConfigEntriesApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@config_entries_api'
+ConfigEntriesApi_TEST: TEST_ENV=test -p default -p desktop --tags '@config_entries_api'
+ConfigurationApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@config_api'
+ConfigurationApi_TEST: TEST_ENV=test -p default -p desktop --tags '@config_api'
+DocumakerApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@documaker_api'
+DocumakerApi_TEST: TEST_ENV=test -p default -p desktop --tags '@documaker_api'
+DocumentManagementApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@documanagement_api'
+DocumentManagementApi_TEST: TEST_ENV=test -p default -p desktop --tags '@documanagement_api'
+DynamicControls_DEVL: TEST_ENV=dev -p default -p desktop --tags '@dyn_controlls_api'
+DynamicControls_TEST: TEST_ENV=test -p default -p desktop --tags '@dyn_controlls_api'
+ESignatureOrderingApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@esig_api'
+ESignatureOrderingApi_TEST: TEST_ENV=test -p default -p desktop --tags '@esig_api'
+FileAttachmentApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@file_api'
+FileAttachmentApi_TEST: TEST_ENV=test -p default -p desktop --tags '@file_api'
+IntegrationMetadataApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@integration_api'
+IntegrationMetadataApi_TEST: TEST_ENV=test -p default -p desktop --tags '@integration_api'
+MetadataApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@metadata_api'
+MetadataApi_TEST: TEST_ENV=test -p default -p desktop --tags '@metadata_api'
+PolicyApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@policy_api'
+PolicyApi_TEST: TEST_ENV=test -p default -p desktop --tags '@policy_api'
+PolicyApiCore_DEVL: TEST_ENV=dev -p default -p desktop --tags '@policy_api'
+PolicyApiCore_TEST: TEST_ENV=test -p default -p desktop --tags '@policy_api'
+PolicyBillingApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@policy_billing_api'
+PolicyBillingApi_TEST: TEST_ENV=test -p default -p desktop --tags '@policy_billing_api'
+PolicyClaimsApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@policy_claims_api'
+PolicyClaimsApi_TEST: TEST_ENV=test -p default -p desktop --tags '@policy_claims_api'
+SecurityApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@security_api'
+SecurityApi_TEST: TEST_ENV=test -p default -p desktop --tags '@security_api'
+ThirdPartyReportsApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@third_api'
+ThirdPartyReportsApi_TEST: TEST_ENV=test -p default -p desktop --tags '@third_api'
+VinLookupApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@vin_api'
+VinLookupApi_TEST: TEST_ENV=test -p default -p desktop --tags '@vin_api'
+DocumentsApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@document_api'
+DocumentsApi_TEST: TEST_ENV=test -p default -p desktop --tags '@document_api'
+WorkbenchApi_DEVL: TEST_ENV=dev -p default -p desktop --tags '@workbench_api'
+WorkbenchApi_TEST: TEST_ENV=test -p default -p desktop --tags '@workbench_api'
+
+citest: --tags '@ci' -p ci -f pretty
+nowip: --tags 'not @wip'
+no_known_issue: --tags 'not @known_issue'
+known_issue: --tags '@known_issue'
+no_framework: --tags 'not @framework'
+no_regression: --tags 'not @regression'
+regression: --tags '@regression'
+framework: --tags '@framework'
+should_work: -p nowip -p no_known_issue -p no_framework
+
+integration: --tags '@document_verification'
+lambda_test: --tags '@lambda'
+
+json: --format json --out <%= ENV.fetch('REPORT_DIR', 'reports\\') %><%= ENV.fetch('FILE_KEY', ENV.fetch('TEST_ENV', 'test')) %>-results_<%= ENV['TEST_ENV_NUMBER'] || '1' %>.json
+html: --format html --out <%= ENV.fetch('REPORT_DIR', 'reports\\') %><%= ENV.fetch('FILE_KEY', ENV.fetch('TEST_ENV', 'test')) %>-results_<%= ENV['TEST_ENV_NUMBER'] || '1' %>.html
+
+test_app_html: --format html --out <%= ENV.fetch('REPORT_DIR', 'reports\\') %>results_<%= ENV['TEST_ENV_NUMBER'] || '' %>.html
+
+# this is a test check in AMN
+retry: --retry <%= ENV.fetch('RETRIES', '2') %>
+foo: --format json --out <%= ENV.fetch('REPORT_DIR', 'reports\\') %><%= ENV.fetch('FILE_KEY', ENV.fetch('TEST_ENV', 'test')) %>-results_<%= ENV['TEST_ENV_NUMBER'] || '1' %>.json
+parallel: -p headless -p retry --format json --out <%= ENV.fetch('REPORT_DIR', 'reports\\') %><%= ENV.fetch('FILE_KEY', ENV.fetch('TEST_ENV', 'test')) %>-<%= ENV.fetch('RELEASE', 'Unknown') %>-results_<%= ENV['TEST_ENV_NUMBER'] || '1' %>.json
+parallel_lb: -p headless -p retry --format json --out <%= ENV.fetch('REPORT_DIR', 'reports\\') %><%= ENV.fetch('FILE_KEY', ENV.fetch('TEST_ENV', 'test')) %>-<%= ENV.fetch('RELEASE', 'Unknown') %>-results_<%= ENV['TEST_ENV_NUMBER'] || '1' %>.json
+parallel_with_retry: -p headless -p retry --format json --out <%= ENV.fetch('REPORT_DIR', 'reports\\') %><%= ENV.fetch('FILE_KEY', ENV.fetch('TEST_ENV', 'test')) %>-<%= ENV.fetch('RELEASE', 'Unknown') %>-results_<%= ENV['TEST_ENV_NUMBER'] || '1' %>.json
+parallel_no_retry: --format json --out <%= ENV.fetch('REPORT_DIR', 'reports\\') %><%= ENV.fetch('FILE_KEY', ENV.fetch('TEST_ENV', 'test')) %>-<%= ENV.fetch('RELEASE', 'Unknown') %>-results_<%= ENV['TEST_ENV_NUMBER'] || '1' %>.json
+
+ci: TEST_ENV=ci -p headless -p default -p desktop -p kb --tags '@ci'
+ci_common: -p ci -p should_work
+parallel_ci:   -p ci_common --format json --out <%= ENV.fetch('REPORT_DIR', 'reports\\') %><%= ENV.fetch('FILE_KEY', ENV.fetch('TEST_ENV', 'test')) %>-<%= ENV.fetch('RELEASE', 'Unknown') %>-results_<%= ENV['TEST_ENV_NUMBER'] || '1' %>.json
+linear_ci: -p headless -p ci_common --format json --out <%= ENV.fetch('REPORT_DIR', 'reports\\') %><%= ENV.fetch('FILE_KEY', ENV.fetch('TEST_ENV', 'test')) %>-merged_results.json
+
+profile: CUKE_PROFILE=true
+trace: CUKE_TRACE=true
+
+mstest: -p ci_common -f junit  --out reports/ -p desktop -f html -o reports/ci_run.html
+
+allure_test: --format AllureCucumber::CucumberFormatter --out reports/allure-results
+allure_grid: USE_ALLURE_REPORTS=true GRID_REPORTS=true --format AllureCucumber::CucumberFormatter -o //vsqvwcucumber01/Shared/allure/<%= ENV.fetch('TEST_ENV', 'TEST') %>/allure-results
+
+excel_data: USE_EXCEL_DATA=true
+excel_data_redis_cache: USE_EXCEL_DATA=true USE_REDIS_SERVER=true
+
+excel_data_IN: -p excel_data_redis_cache EXCEL_DATA_STATE=IN
+excel_data_IL: -p excel_data_redis_cache EXCEL_DATA_STATE=IL
+excel_data_OH: -p excel_data_redis_cache EXCEL_DATA_STATE=OH
+
+auto: --tags '@auto'
+homeowners: --tags '@homeowners'
+dwelling: --tags '@dwelling'
+umbrella: --tags '@umbrella'
+watercraft: --tags '@watercraft'
+scheduled_property: --tags '@scheduled_property'
+multiple: --tags '@multiple'
+policy_issuance: --tags '@policy_issuance'
+policy_change: --tags '@policy_change'
+search_activity: --tags '@search_activity'
+coverage_validation: --tags '@coverage_validation'
+driver: --tags '@driver'
+vehicle: --tags '@vehicle'
+reinstatement: --tags '@reinstatement'
+new_business: --tags '@new_business'
+party_validation: --tags '@party_validation'
+agent_validation: --tags '@agent_validation'
+reports_validation: --tags '@reports_validation'
+account_management: --tags '@account_management'
+document: --tags '@document'

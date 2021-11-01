@@ -1,0 +1,5 @@
+auto_policy_optional_coverages_modal:
+  home_personal_cyber_protection: true
+  home_personal_cyber_protection_amount: 2
+  home_property_located_self_storage_limit: '18750'
+  are_there_swimming_pools_on_residence_premises: 'No'

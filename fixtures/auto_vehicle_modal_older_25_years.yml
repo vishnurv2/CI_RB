@@ -1,0 +1,14 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("existing_account_4.yml") %>
+auto_vehicle_modal:
+  vehicle_year: '1994'
+  vehicle_make: PONTIAC
+  vehicle_model: SUNBIRD
+  vehicle_style: 'HCHBK 3D 1.8'
+  #vehicle_identification_number: JHMCS1A3&A
+  vehicle_use: Business
+  agreed_value: 'No'
+  purchase_date: 11/09/1994
+  annual_miles: '1000'
+  performance: Standard

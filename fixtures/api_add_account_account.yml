@@ -1,0 +1,35 @@
+account:
+  effectiveDate: "2020-02-04T15:36:08.979Z"
+  expirationDate: "2020-02-04T15:36:08.979Z"
+  accountStatus: "Open"
+  agencyRegion: "0"
+  agencyCode: "4218"
+  agencyName: "HUPE INSURANCE SERVICES"
+  agencyContactId: "12/31/2003 1:16:42 PM-0000047"
+account_party:
+  partytype: "Person"
+  partyName:
+    titlePrefix: ~name_prefix
+    givenName: ~first_name
+    surname: ~last_name
+    nameSuffix: ~name_prefix
+    nickName: ~user_name
+  birthDt: ~full_adult_birth_date
+  gender: "Male"
+  maritalStatus: "Single"
+  phones:
+    - phoneNumber: ~phone_number
+      phoneTypeCode: "Mobile"
+      phoneTypeDescription: "Mobile"
+  address:
+    addr1: "3715 KIRKLYNN DR"
+    city: "NEW HAVEN"
+    state: "IN"
+    postalCode: "46774"
+    country: "US"
+  roles: [
+    "Applicant",
+    "Contact"
+  ]
+  emails:
+    - ~email_address

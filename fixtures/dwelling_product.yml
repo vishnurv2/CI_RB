@@ -1,0 +1,10 @@
+add_product_modal:
+  personal_products:
+    automobile: false
+    residential: false
+    umbrella: false
+    scheduled_property: false
+    watercraft: false
+    dwelling: true
+  #policy_effective_date: ~today
+  #state: Indiana

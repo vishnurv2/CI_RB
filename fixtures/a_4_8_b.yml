@@ -1,0 +1,38 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_account_info.yml") %>
+<%= include_yml("default_auto_general_info.yml") %>
+<%= include_yml("aplc_autoplus_combined_none.yml") %>
+auto_vehicle_modal:
+  vehicles:
+    - vehicle_identification_number: '1GY&3AKJ&G'
+      vehicle_use: Business
+      agreed_value: 'Yes'
+      xx_cost_new: '77320.00'
+      black_book_series: Base
+      xxblack_book_year: '2016'
+      xxblack_book_make: Cadillac
+      xxblack_book_model: Escalade
+      black_book_style: 4D SUV 4WD
+      vehicle_value_types: Original Cost
+      purchase_date: ~today
+      annual_miles: '100'
+      xxanti_theft_device: 'No Anti-Theft Device'
+auto_driver_modal:
+  drivers:
+    - existing_party: 'New Party'
+      first_name: ~first_name
+      middle_name: ~first_name
+      last_name: ~last_name
+#      name_prefix: ~name_prefix
+#      name_suffix: ~name_suffix
+      gender: Male
+      nickname: ~user_name
+      date_of_birth: ~full_adult_birth_date
+      marital_status: Single
+      relationship_to_applicant: 'Other Relative'
+      license_number: '1234567890'
+      license_state: Indiana
+auto_vehicle_coverages_modal:
+  Collision: '$500'
+  Other Than Collision: '$500'

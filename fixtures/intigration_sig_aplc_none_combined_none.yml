@@ -1,0 +1,13 @@
+auto_policy_level_coverages_modal:
+  enhanced_coverage: summit
+  split_combined_single_limit: Combined Single Limit
+  uninsured_underinsured_coverage: true
+  property_damage_deductible: $300
+  decline_medical_coverage: false
+  medical_payments: $10,000
+  combined_single_limit: $300,000
+expected_auto_policy_level_coverages:
+  enhanced_coverage: 'No Enhanced Coverage'
+  combined_single_limit: $300,000
+  medical_payments: $500
+  uninsured_motorist_option: '$300,000'

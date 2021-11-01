@@ -1,0 +1,3777 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Feature: Underwriting referrals are generated for conditions
+  
+    &mdash; Documentation by YARD 0.9.18
+  
+</title>
+
+  <link rel="stylesheet" href="../../../css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../../../css/common.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="../../../css/cucumber.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "requirements::features::personal_auto::underwriting_referrals";
+  relpath = '../../../';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/app.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../../../js/cucumber.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="../../../feature_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="../../../_index.html">Index (u)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../../../requirements.html" title="requirements (requirements)">requirements</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../../features.html" title="requirements::features (featuredirectory)">features</a></span></span> &raquo; <span class='title'><span class='object_link'><a href="../personal_auto.html" title="requirements::features::personal_auto (featuredirectory)">personal_auto</a></span></span>
+     &raquo; 
+    <span class="title">underwriting_referrals</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="feature_list_link"
+        href="../../../feature_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><script type="text/javascript" charset="utf-8">
+$(function() {
+  $(".developer").hide();
+  $(".scenario .title").css('cursor','pointer');
+});
+</script>
+
+<div class="feature">
+  <div class="title">
+    <a id="view" class="control" href="#">[More Detail]</a>
+    <a id="expand" class="control" href="#">[Collapse All]</a>
+    <div style="clear: right;"></div>
+    <span class="pre">Feature:</span>
+    <span class="name">Underwriting referrals are generated for conditions</span>
+  </div>
+
+  
+
+  <div class="description">
+    
+  </div>
+
+  <div class="meta">
+    <div class="file developer">features/personal_auto/underwriting_referrals.feature</div>
+    <div style="clear: right;"></div>
+    <div class="tags developer">
+      
+      <a href="../../tags/indiana_auto.html">@indiana_auto</a>
+      
+      <a href="../../tags/personal_auto.html">@personal_auto</a>
+      
+      <a href="../../tags/underwriting.html">@underwriting</a>
+      
+    </div>
+  </div>
+
+  
+</div>
+
+<div class="scenario scenario_0">
+  <a name="scenario_0" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario Outline:</span>
+      <span class="name">Out of target referrals are generated on Quote Options can be approved</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_0">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/underwriting_referrals.feature:5</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+      I have created a new &quot;Auto&quot; policy using the &lt;fixture_file&gt; fixture
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+      I navigate to &quot;Quote Options&quot; using the left nav
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+      I should see a red underwriting referral stating &quot;&lt;message&gt;&quot;
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+      I navigate to &quot;CMI Employees&quot; using the left nav
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+      I should see an underwriting referrals message stating &quot;&lt;message&gt;&quot;
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+      I mark the referral for &quot;&lt;message&gt;&quot; as &quot;&lt;status&gt;&quot; with the note of &quot;&lt;note&gt;&quot;
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+      the referral should reflect my changes in the referral grid
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+      I navigate to &quot;Quote Options&quot; using the left nav
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+      I should see a green underwriting referral stating &quot;&lt;message&gt;&quot;
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  
+    <div style="display: none;" class="steps example1-1">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>auto_policy_autoplus_combined_none_old_driver_current_retail</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see a <span class='match'>red</span> underwriting referral stating "<span class='match'>One or more drivers included in this quote does not fit Central&#39;s target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition323-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>One or more drivers included in this quote does not fit Central&#39;s target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I mark the referral for "<span class='match'>One or more drivers included in this quote does not fit Central&#39;s target market.</span>" as "<span class='match'>Approved</span>" with the note of "<span class='match'>I approve of this policy</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition325-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          the referral should reflect my changes in the referral grid
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition326-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see a <span class='match'>green</span> underwriting referral stating "<span class='match'>One or more drivers included in this quote does not fit Central&#39;s target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition323-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+
+
+
+<div class="outline">
+  
+  
+    
+    
+      <div class="keyword">
+        Examples
+      </div>
+      <div class="example-group-name"></div>
+      <br style="clear: both;"/>
+      <table>
+        <thead>
+          <tr>
+            
+              <th>fixture_file</th>
+            
+              <th>message</th>
+            
+              <th>status</th>
+            
+              <th>note</th>
+            
+          </tr>
+        </thead>
+        
+          
+          <tr class="odd example1-1">
+            
+              <td>auto_policy_autoplus_combined_none_old_driver_current_retail</td>
+            
+              <td>One or more drivers included in this quote does not fit Central&#39;s target market.</td>
+            
+              <td>Approved</td>
+            
+              <td>I approve of this policy</td>
+            
+          </tr>
+          
+        
+      </table>
+    
+    
+  
+</div>
+
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+<div class="scenario scenario_1">
+  <a name="scenario_1" />
+  <div class="title">
+    <div style="float: left;">
+      <a class="toggle"> - </a>
+      <span class="pre">Scenario Outline:</span>
+      <span class="name">Referrals Are Generated for All Rules</span>
+    </div>
+    <a class="link" style="float:right; clear:right;" href="#scenario_1">link</a>
+  </div>
+
+  
+
+  
+
+  <div class="details">
+    <div class="meta developer">
+      <div class="file">features/personal_auto/underwriting_referrals.feature:21</div>
+      
+        <div style="clear:right;"></div>
+        <div class="tags">
+          
+            <a href="../../tags/delete_when_done.html">@delete_when_done</a>
+          
+            <a href="../../tags/wip.html">@wip</a>
+          
+        </div>
+      
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="steps">
+      
+        
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+      I have created a new &quot;Auto&quot; policy using the &lt;fixture_file&gt; fixture
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+      I navigate to &quot;Quote Options&quot; using the left nav
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+      I navigate to &quot;CMI Employees&quot; using the left nav
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+      I should see an underwriting referrals message stating &quot;&lt;message&gt;&quot;
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+    </div>
+
+
+    
+
+  
+    <div style="display: none;" class="steps example1-1">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000002</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>More than 3 moving violations in the last 3 years. Underwriter approval is required prior to binding</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-2">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000022</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>More than 3 at fault accidents in the last 3 years. Underwriter approval is required prior to binding</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-3">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000041</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Moving violations* &gt; 3 AND ANY At-Fault Accidents*</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-4">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000051</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>One or more drivers with a major violation in the last seven years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-5">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000091</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>One or more drivers with a license suspension in the last seven years. Underwriter approval is required prior to binding.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-6">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000450</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver &lt; 18 and &gt; 0 At-Fault Accident or &gt; 0 Moving Violation in the last one year</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-7">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000201</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver under 18 with more than 1 at-fault accident in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-8">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000181</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver under 18 with more than 1 moving violation in the last 3 years. This risk does not fit Centrals target market</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-9">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000460</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver under 18 with one or more not at fault accident(s) and 1 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-10">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000470</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver under 18 with one or more not at fault accident(s) and 1 or more at fault accidents in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-11">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000475</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver under 18 with 1 or more at-fault accidents and 1 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-12">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000480</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Unpackaged and all drivers on policy are under 18. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-13">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000490</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver 18-69 with more than 1 moving violation in the last 12 months. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-14">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000500</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver 18-69 with 1 or more not at fault accident(s) and 1 or more moving violations in the last 12 months. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-15">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000505</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver 18-69 with 1 or more not at-fault accidents and 1 or more at-fault accidents in the last 12 months. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-16">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000510</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver 18-69 with more than 1 at-fault accident in the last 3 years. This risk does not fit Centrals target market</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-17">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000520</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver age 18-69 with more than 2 moving violations in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-18">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000530</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver 18-69 with 1 or more not at fault accident(s) and 2 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-19">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000540</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver 18-69 with 1 or more not at fault accident(s) and 1 At fault accident and 1 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-20">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000790</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver 18-69 with 1 or more at-fault accidents and 2 or more not at-fault accidents in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-21">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000800</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver 18-69 with 1 or more at-fault accidents and 2 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-22">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000810</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver 18-69 with 1 at-fault accident and 1 moving violation in the last 12 months. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-23">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000550</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver over 69 with moving violation activity in the last 12 months. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-24">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000560</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver over 69 with at fault accident(s) in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-25">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000570</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver over 69 with more than 1 moving violation in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+    <div style="display: none;" class="steps example1-26">
+      
+      
+      
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">Given </span>
+
+    
+
+      
+        <span class="defined">
+          I have created a new "<span class='match'>Auto</span>" policy using the <span class='match'>underwriting_referral_rule_ax000580</span> fixture
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition128-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">When </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>Quote Options</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step odd">
+    <span class="predicate">And </span>
+
+    
+
+      
+        <span class="defined">
+          I navigate to "<span class='match'>CMI Employees</span>" using the left nav
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition40-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+  
+
+  
+  <div class="step even">
+    <span class="predicate">Then </span>
+
+    
+
+      
+        <span class="defined">
+          I should see an underwriting referrals message stating "<span class='match'>Driver over 69 with 1 or more not at fault accident(s) and 1 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</span>"
+          <div class="definition developer">
+            <a href="../../step_transformers.html#step_definition324-stepdefinition"><div class="valid">&nbsp;</div></a>
+          </div>
+        </span>
+      
+
+    
+  </div>
+
+  
+  
+
+
+
+
+      
+      
+    </div>
+  
+
+
+
+<div class="outline">
+  
+  
+    
+    
+      <div class="keyword">
+        Examples
+      </div>
+      <div class="example-group-name"></div>
+      <br style="clear: both;"/>
+      <table>
+        <thead>
+          <tr>
+            
+              <th>fixture_file</th>
+            
+              <th>message</th>
+            
+          </tr>
+        </thead>
+        
+          
+          <tr class="odd example1-1">
+            
+              <td>underwriting_referral_rule_ax000002</td>
+            
+              <td>More than 3 moving violations in the last 3 years. Underwriter approval is required prior to binding</td>
+            
+          </tr>
+          
+          <tr class="even example1-2">
+            
+              <td>underwriting_referral_rule_ax000022</td>
+            
+              <td>More than 3 at fault accidents in the last 3 years. Underwriter approval is required prior to binding</td>
+            
+          </tr>
+          
+          <tr class="odd example1-3">
+            
+              <td>underwriting_referral_rule_ax000041</td>
+            
+              <td>Moving violations* &gt; 3 AND ANY At-Fault Accidents*</td>
+            
+          </tr>
+          
+          <tr class="even example1-4">
+            
+              <td>underwriting_referral_rule_ax000051</td>
+            
+              <td>One or more drivers with a major violation in the last seven years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="odd example1-5">
+            
+              <td>underwriting_referral_rule_ax000091</td>
+            
+              <td>One or more drivers with a license suspension in the last seven years. Underwriter approval is required prior to binding.</td>
+            
+          </tr>
+          
+          <tr class="even example1-6">
+            
+              <td>underwriting_referral_rule_ax000450</td>
+            
+              <td>Driver &lt; 18 and &gt; 0 At-Fault Accident or &gt; 0 Moving Violation in the last one year</td>
+            
+          </tr>
+          
+          <tr class="odd example1-7">
+            
+              <td>underwriting_referral_rule_ax000201</td>
+            
+              <td>Driver under 18 with more than 1 at-fault accident in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="even example1-8">
+            
+              <td>underwriting_referral_rule_ax000181</td>
+            
+              <td>Driver under 18 with more than 1 moving violation in the last 3 years. This risk does not fit Centrals target market</td>
+            
+          </tr>
+          
+          <tr class="odd example1-9">
+            
+              <td>underwriting_referral_rule_ax000460</td>
+            
+              <td>Driver under 18 with one or more not at fault accident(s) and 1 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="even example1-10">
+            
+              <td>underwriting_referral_rule_ax000470</td>
+            
+              <td>Driver under 18 with one or more not at fault accident(s) and 1 or more at fault accidents in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="odd example1-11">
+            
+              <td>underwriting_referral_rule_ax000475</td>
+            
+              <td>Driver under 18 with 1 or more at-fault accidents and 1 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="even example1-12">
+            
+              <td>underwriting_referral_rule_ax000480</td>
+            
+              <td>Unpackaged and all drivers on policy are under 18. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="odd example1-13">
+            
+              <td>underwriting_referral_rule_ax000490</td>
+            
+              <td>Driver 18-69 with more than 1 moving violation in the last 12 months. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="even example1-14">
+            
+              <td>underwriting_referral_rule_ax000500</td>
+            
+              <td>Driver 18-69 with 1 or more not at fault accident(s) and 1 or more moving violations in the last 12 months. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="odd example1-15">
+            
+              <td>underwriting_referral_rule_ax000505</td>
+            
+              <td>Driver 18-69 with 1 or more not at-fault accidents and 1 or more at-fault accidents in the last 12 months. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="even example1-16">
+            
+              <td>underwriting_referral_rule_ax000510</td>
+            
+              <td>Driver 18-69 with more than 1 at-fault accident in the last 3 years. This risk does not fit Centrals target market</td>
+            
+          </tr>
+          
+          <tr class="odd example1-17">
+            
+              <td>underwriting_referral_rule_ax000520</td>
+            
+              <td>Driver age 18-69 with more than 2 moving violations in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="even example1-18">
+            
+              <td>underwriting_referral_rule_ax000530</td>
+            
+              <td>Driver 18-69 with 1 or more not at fault accident(s) and 2 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="odd example1-19">
+            
+              <td>underwriting_referral_rule_ax000540</td>
+            
+              <td>Driver 18-69 with 1 or more not at fault accident(s) and 1 At fault accident and 1 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="even example1-20">
+            
+              <td>underwriting_referral_rule_ax000790</td>
+            
+              <td>Driver 18-69 with 1 or more at-fault accidents and 2 or more not at-fault accidents in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="odd example1-21">
+            
+              <td>underwriting_referral_rule_ax000800</td>
+            
+              <td>Driver 18-69 with 1 or more at-fault accidents and 2 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="even example1-22">
+            
+              <td>underwriting_referral_rule_ax000810</td>
+            
+              <td>Driver 18-69 with 1 at-fault accident and 1 moving violation in the last 12 months. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="odd example1-23">
+            
+              <td>underwriting_referral_rule_ax000550</td>
+            
+              <td>Driver over 69 with moving violation activity in the last 12 months. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="even example1-24">
+            
+              <td>underwriting_referral_rule_ax000560</td>
+            
+              <td>Driver over 69 with at fault accident(s) in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="odd example1-25">
+            
+              <td>underwriting_referral_rule_ax000570</td>
+            
+              <td>Driver over 69 with more than 1 moving violation in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+          <tr class="even example1-26">
+            
+              <td>underwriting_referral_rule_ax000580</td>
+            
+              <td>Driver over 69 with 1 or more not at fault accident(s) and 1 or more moving violations in the last 3 years. This risk does not fit Centrals target market.</td>
+            
+          </tr>
+          
+        
+      </table>
+    
+    
+  
+</div>
+
+
+  </div>
+  
+  <div class="attributes" style="display:none;">
+    <input type="hidden" name="collapsed" value="false">
+  </div>
+
+</div>
+</div>
+
+      <div id="footer">
+  Generated on Tue Aug 27 14:13:04 2019 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.18 (ruby-2.5.5).
+</div>
+
+    </div>
+  </body>
+</html>

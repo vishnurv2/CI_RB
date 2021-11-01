@@ -1,0 +1,24 @@
+---
+<%= include_yml("valid_creds.yml") %>
+<%= include_yml("generic_watercraft_account_info.yml") %>
+<%= include_yml("default_watercraft_general_info.yml") %>
+<%= include_yml("wplc_enhanced_coverage_null.yml") %>
+<%= include_yml("generic_hull_and_motor_information.yml") %>
+auto_policy_optional_coverages_modal:
+  emergency_service_expanded_coverage: true
+  wes_total_limit: '$1,000'
+  personal_effects: true
+  wpe_total_limit: '$500'
+  boating_equipment_coverage_increase: true
+  wbe_total_limit: '$2,501'
+  manual_coverage: true
+  manual_coverage_premium: '$250'
+  manual_coverage_description_field: 'New Update'
+watercraft_operator_modal:
+  existing_party: 0
+  xxgender: 'Male'
+  xxmarital_status: 'Single'
+  xxlicense_state: 'Indiana'
+  xxlicense_number: '1160137783'
+  xxyears_of_boating_experience: 1
+  xxsafety_course: 'No'

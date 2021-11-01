@@ -1,0 +1,11 @@
+property_info_modal:
+  xxresidential_location_type: 'Homeowner'
+  form_type: '3 - Special'
+  prefill_property_info: true
+  year_built: '2000'
+  number_of_families: '2'
+  number_of_stories: '2.5'
+  structure_type: 'Apartments'
+
+
+

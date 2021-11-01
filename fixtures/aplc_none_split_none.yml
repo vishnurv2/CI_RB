@@ -1,0 +1,14 @@
+auto_policy_level_coverages_modal:
+  enhanced_coverage: decline_enhanced_auto_coverage
+  split_combined_single_limit: Split Limits
+  uninsured_underinsured_coverage: false
+  decline_medical_coverage: false
+  medical_payments: $500
+  bodily_injury_liability: $300,000 / $300,000
+  property_damage_liability: $25,000
+expected_auto_policy_level_coverages:
+  bodily_injury_liability: $300,000 / $300,000
+  medical_payments: $500
+  uninsured_motorist_option: Coverage Declined
+  property_damage_liability: $25,000
+  enhanced_coverage: No Enhanced Coverage

@@ -1,0 +1,10 @@
+scheduled_property_policy_level_coverages_modal:
+  construction_location: 'Frame'
+  family_numbers: 2
+scheduled_property_classes_modal:
+  bicycles: true
+  blanket_value_coverage: 'Yes'
+  blanket_total_amount: '100'
+  blanket_per_item_amount: 2
+  blanket_deductible: 2
+  agreed_value_coverage: 'No'

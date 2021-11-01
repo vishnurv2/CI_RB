@@ -1,0 +1,51 @@
+SaveApplicant=
+PreviousModal=AccountLoggingApplicantModal
+__RequestVerificationToken=<%= rv_token %>>
+IsContact=true
+Prefix=<%= applicant['name_prefix']%>
+FirstName=<%= applicant['first_name']%>
+MiddleName=<%= applicant['middle_name']%>
+LastName=<%= applicant['last_name']%>
+Suffix=<%= applicant['name_suffix']%>
+NickName=<%= applicant['nickname']%>
+Gender=<%= applicant['gender']%>
+DateOfBirth=<%= applicant['date_of_birth'].gsub('/', '%2F')%>
+PreferredLanguage=<%= applicant['preferred_language']%>
+OrganizationName=<%= applicant['org_name']%>
+AlsoKnownAs=<%= applicant['aka']%>
+BusinessStartDt=
+functionToFire=GetValueInSelectedOccupations('%23Occupation')%3B
+FunctionToFire=PageLoadSetDeleteButtonsForPhonesEmails()%3B
+<% (applicant['emails'] || ['']).each_with_index do |n, i| %>
+EmailAddress<%=CGI.escape("[#{i}]") %>=<%= n%>
+EmailActionCode<%=CGI.escape("[#{i}]") %>=%>
+<%end %>
+FunctionToFire=PageLoadSetDeleteButtonsForPhonesEmails()%3B
+<% (applicant['phone_numbers'] || [{ 'number' => '', 'type' => '' }]).each_with_index do |n, i| %>
+PhoneType<%=CGI.escape("[#{i}]") %>=<%= CGI.escape(n['type'])%>
+PhoneNumber<%=CGI.escape("[#{i}]") %>=<%= CGI.escape(n['number'])%>
+PhoneNumberActionCode<%=CGI.escape("[#{i}]") %>=
+<% end %>
+functionToFire=%24('.addressField+input%2C+.addressField+select%2C+.addressField+textarea').attr('readonly'%2C+'readonly')%3B
+AddressDetailType=Address
+AddressBypassScrubbingIndicator=true
+AddressLine1=<%= CGI.escape(applicant['address_details']['address_line_1'] || '')%>
+ScrubbedAddressLine1=
+AddressLine2=
+ScrubbedAddressLine2=<%= CGI.escape(applicant['address_details']['address_line_2'] || '')%>
+AddressLine3=
+ScrubbedAddressLine3=<%= CGI.escape(applicant['address_details']['address_line_3'] ||'')%>
+AddressDescription=
+City=<%= CGI.escape(applicant['address_details']['city'])%>
+ScrubbedAddressCity=
+StateProvDropList=<%= applicant['address_details']['state_cd']%>
+ScrubbedAddressStateProv=
+StateProvText=<%= applicant['address_details']['state_cd']%>
+ZipCode=<%= applicant['address_details']['zip_code']%>
+ScrubbedAddressZipCode=
+Zip4=
+ScrubbedAddressZip4=
+County=<%= CGI.escape(applicant['address_details']['county']  || '')%>
+ScrubbedAddressCounty=
+Country=US
+X-Requested-With=XMLHttpRequest
